@@ -1,0 +1,17 @@
+PODS:
+  - DZLayoutTable (0.1.0)
+  - FBSnapshotTestCase (1.6)
+
+DEPENDENCIES:
+  - DZLayoutTable (from `../`)
+  - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  DZLayoutTable:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DZLayoutTable: e1adc6ca1ae136d09ffbceb80b49fa883e80bdb9
+  FBSnapshotTestCase: 9d5fe43b29ae3a0ed8fc829477971b281038f748
+
+COCOAPODS: 0.35.0.rc2
