@@ -7,8 +7,7 @@
 //
 
 #import "DZLayoutTableViewController.h"
-#import "DZTableViewInterface.h"
-
+#import "DZLayoutTableViewCell.h"
 @implementation DZLayoutTableViewController
 - (instancetype) initWithSyncer:(DZTableDataSync *)syncer
 {
@@ -46,13 +45,11 @@
 - (UITableViewCell*) tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     DZLayout* layout = [_dataSyncer layoutAtIndex:indexPath.row];
-    UITableViewCell<DZTableViewCellInterface> *cell = [tableView dequeueReusableCellWithIdentifier:layout.cellIdentify];
+    DZLayoutTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:layout.cellIdentify];
     if (!cell) {
         cell = [layout cell];
     }
-    if ([cell respondsToSelector:@selector(setLayoutObject:)]) {
-        [cell setLayoutObject:layout];
-    }
+    cell.layout = layout;
     return cell;
 }
 

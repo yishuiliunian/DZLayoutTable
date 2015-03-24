@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class DZLayout;
 @interface DZLayoutTableViewCell : UITableViewCell
-
+@property (nonatomic, strong) DZLayout* layout;
 @end

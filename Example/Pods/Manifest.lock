@@ -1,5 +1,5 @@
 PODS:
-  - DZLayoutTable (0.1.0)
+  - DZLayoutTable (0.1.2)
   - FBSnapshotTestCase (1.6)
 
 DEPENDENCIES:
@@ -11,7 +11,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  DZLayoutTable: e1adc6ca1ae136d09ffbceb80b49fa883e80bdb9
+  DZLayoutTable: 59d239a29c0f3a978f74917a9686d68203df6373
   FBSnapshotTestCase: 9d5fe43b29ae3a0ed8fc829477971b281038f748
 
 COCOAPODS: 0.35.0.rc2

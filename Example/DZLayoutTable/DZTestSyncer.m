@@ -7,7 +7,6 @@
 //
 
 #import "DZTestSyncer.h"
-#import "DZTableViewInterface.h"
 @interface DZModel :NSObject
 @property (nonatomic, strong) NSString* title;
 @property (nonatomic, strong) NSString* content;
@@ -52,7 +51,7 @@
 @end
 
 
-@interface DZTableViewCell : UITableViewCell <DZTableViewCellInterface>
+@interface DZTableViewCell : UITableViewCell
 {
     DZLayout* _layout;
 }

@@ -8,13 +8,13 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-@protocol DZTableViewCellInterface;
+#import "DZLayoutTableViewCell.h"
 @interface DZLayout : NSObject
 @property (nonatomic, assign) CGFloat cellWidth;
 @property (nonatomic, assign, readonly) CGFloat cellHeight;
 @property (nonatomic, strong) Class cellClass;
 @property (nonatomic, strong, readonly) NSString* cellIdentify;
 - (void) layoutItems;
-- (UITableViewCell<DZTableViewCellInterface>*) cell;
+- (DZLayoutTableViewCell*) cell;
 - (void) layoutTableViewCell:(UITableViewCell*)cell;
 @end

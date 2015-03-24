@@ -14,7 +14,7 @@
 {
     return NSStringFromClass(self.cellClass);
 }
-- (UITableViewCell<DZTableViewCellInterface>*) cell
+- (DZLayoutTableViewCell*) cell
 {
     return [[self.cellClass alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:NSStringFromClass(self.cellClass)];
 }
