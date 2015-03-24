@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'DZLayoutTable', :exclusive => true do
+  pod "DZLayoutTable", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "DZLayoutTable", :path => "../"
+
+  pod 'FBSnapshotTestCase'
+end
