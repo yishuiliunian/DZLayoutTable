@@ -55,4 +55,11 @@
     }
     return cell;
 }
+
+- (CGFloat) tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    DZLayout* layout = [_dataSyncer layoutAtIndex:indexPath.row];
+    return layout.cellHeight;
+}
 @end
+
