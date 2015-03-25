@@ -14,6 +14,10 @@
     // Initialization code
 }
 
+- (void) didLayoutChanged:(DZLayout *)layout
+{
+    
+}
 - (void) setLayout:(DZLayout *)layout
 {
     if (_layout != layout) {
@@ -23,7 +27,7 @@
 }
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
-
+    
     // Configure the view for the selected state
 }
 
@@ -33,3 +37,4 @@
     [self.layout layoutTableViewCell:self];
 }
 @end
+
