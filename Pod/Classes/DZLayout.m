@@ -27,4 +27,9 @@
 {
     
 }
+
+- (void) loadContentForCell:(DZLayoutTableViewCell *)cell
+{
+    
+}
 @end

@@ -16,5 +16,6 @@
 @property (nonatomic, strong, readonly) NSString* cellIdentify;
 - (void) layoutItems;
 - (DZLayoutTableViewCell*) cell;
-- (void) layoutTableViewCell:(UITableViewCell*)cell;
+- (void) layoutTableViewCell:(DZLayoutTableViewCell*)cell;
+- (void) loadContentForCell:(DZLayoutTableViewCell*)cell;
 @end

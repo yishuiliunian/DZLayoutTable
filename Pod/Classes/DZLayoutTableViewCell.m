@@ -22,13 +22,13 @@
 {
     if (_layout != layout) {
         _layout = layout;
+        [_layout loadContentForCell:self];
+        [self didLayoutChanged:layout];
         [self setNeedsLayout];
     }
 }
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
-    
-    // Configure the view for the selected state
 }
 
 - (void) layoutSubviews
