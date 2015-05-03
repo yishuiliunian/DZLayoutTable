@@ -31,12 +31,12 @@
 }
 - (void) reloadData
 {
-    NSAssert(NO, @"无需调用本类的该方法，该方法只是为了描述整个模型运作的机制，直接在子类重载就好了");
+    [self startSync];
 }
 
 - (void) syncNextObjects
 {
-    NSAssert(NO, @"无需调用本类的该方法，该方法只是为了描述整个模型运作的机制，直接在子类重载就好了");
+    [self startSync];
 }
 - (void) finishingSync
 {
@@ -57,6 +57,7 @@
 {
     _layoutObjects = [datas copy];
     [self.tableView reloadData];
+    [self finishingSync];
 }
 
 - (void) finishSyncNextDatas:(NSArray*)datas
@@ -78,6 +79,7 @@
     if (indexPaths.count == datas.count ) {
         [self.tableView insertRowsAtIndexPaths:indexPaths withRowAnimation:UITableViewRowAnimationAutomatic];
     }
+    [self finishingSync];
 }
 
 - (void) insertLayoutObject:(DZLayout *)anObject atIndex:(NSUInteger)index
