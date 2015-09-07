@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "DZLayoutTable"
-  s.version          = "0.1.8"
+  s.version          = "0.1.9"
   s.summary          = "cell高度变动的tableview的一套通用框架"
   s.description      = <<-DESC
                         cell高度变动的tableview的一套通用框架，通过定义几个基础的类，以及布局流程来简化tableview的维护。
@@ -32,4 +32,5 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'DZAdjustFrame'
 end

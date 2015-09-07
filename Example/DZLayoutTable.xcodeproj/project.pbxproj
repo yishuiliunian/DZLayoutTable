@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		184596BFE99CC8C59246FBD8 /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FCB3B493C0553A809D1DDF9 /* libPods-Tests.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -23,9 +22,10 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		628E061F3387D17445F409B1 /* Pods_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 853CB76C525B69439F245441 /* Pods_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		65C396101AC13E980076E3C0 /* DZTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C3960F1AC13E980076E3C0 /* DZTestViewController.m */; };
 		65C396131AC13EB40076E3C0 /* DZTestSyncer.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C396121AC13EB40076E3C0 /* DZTestSyncer.m */; };
-		F38D7CEE1C21EF87A1FDD1A7 /* libPods-DZLayoutTable.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87FFFDB903621506F6DE81EB /* libPods-DZLayoutTable.a */; };
+		FC6A863C5D37D30ED5DFD04D /* Pods_DZLayoutTable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E66D5F645D61065C7FE895 /* Pods_DZLayoutTable.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03E66D5F645D61065C7FE895 /* Pods_DZLayoutTable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DZLayoutTable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		27A95DC31C2F8EF967E54C77 /* Pods-DZLayoutTable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DZLayoutTable.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DZLayoutTable/Pods-DZLayoutTable.debug.xcconfig"; sourceTree = "<group>"; };
-		4FCB3B493C0553A809D1DDF9 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* DZLayoutTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DZLayoutTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -67,8 +67,8 @@
 		65C396111AC13EB40076E3C0 /* DZTestSyncer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZTestSyncer.h; sourceTree = "<group>"; };
 		65C396121AC13EB40076E3C0 /* DZTestSyncer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZTestSyncer.m; sourceTree = "<group>"; };
 		67C9B79FC3C4805506A2D1B2 /* Pods-DZLayoutTable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DZLayoutTable.release.xcconfig"; path = "Pods/Target Support Files/Pods-DZLayoutTable/Pods-DZLayoutTable.release.xcconfig"; sourceTree = "<group>"; };
+		853CB76C525B69439F245441 /* Pods_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		866B63BF7167A369668C8BCF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		87FFFDB903621506F6DE81EB /* libPods-DZLayoutTable.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DZLayoutTable.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BEBC6084E35C825CE6821DD /* DZLayoutTable.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DZLayoutTable.podspec; path = ../DZLayoutTable.podspec; sourceTree = "<group>"; };
 		B71D873EC6A23C953CA8F289 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CDC23EC4F8027920C57BAC9F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -83,7 +83,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				F38D7CEE1C21EF87A1FDD1A7 /* libPods-DZLayoutTable.a in Frameworks */,
+				FC6A863C5D37D30ED5DFD04D /* Pods_DZLayoutTable.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,7 +94,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				184596BFE99CC8C59246FBD8 /* libPods-Tests.a in Frameworks */,
+				628E061F3387D17445F409B1 /* Pods_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,8 +140,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				87FFFDB903621506F6DE81EB /* libPods-DZLayoutTable.a */,
-				4FCB3B493C0553A809D1DDF9 /* libPods-Tests.a */,
+				03E66D5F645D61065C7FE895 /* Pods_DZLayoutTable.framework */,
+				853CB76C525B69439F245441 /* Pods_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -217,6 +217,7 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				14F0DC2FBEFACE00BC94CAC6 /* Copy Pods Resources */,
+				EA8AC58770472155D11349E7 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -236,6 +237,7 @@
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
 				3601A2B29C294E2A7E5A758F /* Copy Pods Resources */,
+				62E430F23B342C45ABD16474 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -349,6 +351,21 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		62E430F23B342C45ABD16474 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests/Pods-Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		9EDFB1A8255F4E4725AD394F /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -362,6 +379,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EA8AC58770472155D11349E7 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DZLayoutTable/Pods-DZLayoutTable-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

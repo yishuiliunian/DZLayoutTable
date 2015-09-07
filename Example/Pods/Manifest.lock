@@ -1,6 +1,14 @@
 PODS:
-  - DZLayoutTable (0.1.2)
-  - FBSnapshotTestCase (1.6)
+  - DZAdjustFrame (0.1.7):
+    - DZGeometryTools
+  - DZGeometryTools (1.1.3)
+  - DZLayoutTable (0.1.8):
+    - DZAdjustFrame
+  - FBSnapshotTestCase (2.0.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.0.4)
+  - FBSnapshotTestCase/Core (2.0.4)
+  - FBSnapshotTestCase/SwiftSupport (2.0.4):
+    - FBSnapshotTestCase/Core
 
 DEPENDENCIES:
   - DZLayoutTable (from `../`)
@@ -8,10 +16,12 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   DZLayoutTable:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  DZLayoutTable: 59d239a29c0f3a978f74917a9686d68203df6373
-  FBSnapshotTestCase: 9d5fe43b29ae3a0ed8fc829477971b281038f748
+  DZAdjustFrame: 804f781355e7d533e4cd607a0016fd1de4f323f5
+  DZGeometryTools: 37a4f414b78544b48ea53c8990657d22e2777bc4
+  DZLayoutTable: 4126688a32c8409061875e60e01e1036d5d0a8d2
+  FBSnapshotTestCase: d94cf34841c9e77390e29009e8e2713479d48753
 
-COCOAPODS: 0.35.0.rc2
+COCOAPODS: 0.38.2

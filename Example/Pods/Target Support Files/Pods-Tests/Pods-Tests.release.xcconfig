@@ -1,7 +1,7 @@
-FRAMEWORK_SEARCH_PATHS = $(inherited) "$(SDKROOT)/Developer/Library/Frameworks" "$(PLATFORM_DIR)/Developer/Library/Frameworks"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/DZLayoutTable" "${PODS_ROOT}/Headers/Public/FBSnapshotTestCase"
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/DZLayoutTable" -isystem "${PODS_ROOT}/Headers/Public/FBSnapshotTestCase"
-OTHER_LDFLAGS = -ObjC -l"Pods-Tests-DZLayoutTable" -l"Pods-Tests-FBSnapshotTestCase" -framework "UIKit" -framework "XCTest"
-OTHER_LIBTOOLFLAGS = $(OTHER_LDFLAGS)
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited) -iquote "$CONFIGURATION_BUILD_DIR/DZAdjustFrame.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/DZGeometryTools.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/DZLayoutTable.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/FBSnapshotTestCase.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -framework "DZAdjustFrame" -framework "DZGeometryTools" -framework "DZLayoutTable" -framework "FBSnapshotTestCase"
+OTHER_SWIFT_FLAGS = $(inherited) "-D" "COCOAPODS"
+PODS_FRAMEWORK_BUILD_PATH = $(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-Tests
 PODS_ROOT = ${SRCROOT}/Pods

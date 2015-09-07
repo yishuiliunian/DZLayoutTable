@@ -1,0 +1,1 @@
+DZADJUSTFRAME_OTHER_LDFLAGS = -framework "UIKit"
