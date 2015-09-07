@@ -11,7 +11,7 @@
 #import "DZLayoutTableViewCell.h"
 @interface DZLayout : NSObject
 @property (nonatomic, assign) CGFloat cellWidth;
-@property (nonatomic, assign, readonly) CGFloat cellHeight;
+@property (nonatomic, assign) CGFloat cellHeight;
 @property (nonatomic, strong) Class cellClass;
 @property (nonatomic, strong, readonly) NSString* cellIdentify;
 - (void) layoutItems;
