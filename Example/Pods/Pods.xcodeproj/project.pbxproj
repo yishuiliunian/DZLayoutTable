@@ -204,6 +204,7 @@
 		60487DA279B1B26DE704FCD06E9B5CCC /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
 		608DD1449300C2D6DD04E33E5872BEF0 /* DZGrowTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DZGrowTextView.h; path = Pod/Classes/DZGrowTextView.h; sourceTree = "<group>"; };
 		648844008C513DD8B1A1BC8C77587A07 /* DZLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DZLayout.h; sourceTree = "<group>"; };
+		6573AA761BF8B2E100B1C268 /* DZLayoutTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DZLayoutTable.h; sourceTree = "<group>"; };
 		669492E93B7117648A8F252A856D7058 /* DZAdjustTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DZAdjustTableViewController.h; path = Pod/Classes/DZAdjustTableViewController.h; sourceTree = "<group>"; };
 		68523C23EED703218820C15219307BCC /* DZGeometryTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DZGeometryTools.m; path = Pod/Classes/DZGeometryTools.m; sourceTree = "<group>"; };
 		6C6AF9805396B5A7E30501DC35052850 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -366,6 +367,7 @@
 			children = (
 				648844008C513DD8B1A1BC8C77587A07 /* DZLayout.h */,
 				C61E2F3825817ED3306840D8A5EA31FB /* DZLayout.m */,
+				6573AA761BF8B2E100B1C268 /* DZLayoutTable.h */,
 				DB8C04BCFC4AFB314787F634C9360D6E /* DZLayoutTableViewCell.h */,
 				751D43CD620687EE21353B2A0A304B47 /* DZLayoutTableViewCell.m */,
 				2DC023BB619E8AAD48372609F6FFCF23 /* DZLayoutTableViewController.h */,
