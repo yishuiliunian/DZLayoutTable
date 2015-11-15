@@ -7,397 +7,395 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0212FA713BA5FF795B5CEEFBC142106C /* DZLayoutTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = C773A23AC83F519150A954BE2745C7A5 /* DZLayoutTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		031837897E7846F56AA32EB1EED78912 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D929333E127563EE0591464D16311F7 /* UIImage+Snapshot.m */; };
-		071F9DA63497F382064CC5F81D3E0E60 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12FB4949CA54F7042310556C0CDA7F22 /* FBSnapshotTestCase-dummy.m */; };
-		0D8DE074F8FF98B01B0497DCAF8696E3 /* DZLayoutTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC109E13E0226BA2DA512FB6C2E81667 /* DZLayoutTableViewCell.m */; };
-		0E58638A7ED535953A591BBFDF6EDDD7 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = D268F30E148DAFD03C89B8B5B1C26CE1 /* FBSnapshotTestCase.m */; };
-		134F7E9DAEEE4D9380D7E74E359B31DA /* UIDeviceHardware.m in Sources */ = {isa = PBXBuildFile; fileRef = DAED8E92CAAC6C9D68AA9D02A17C26E3 /* UIDeviceHardware.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		27BA6F0B2982680D9FD0D51509EA43BA /* DZTableDataSync.m in Sources */ = {isa = PBXBuildFile; fileRef = 4353C1D7DF286789623BD6FFEBFA5D45 /* DZTableDataSync.m */; };
-		2E53AB6655C0B50D69A945F77801D629 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F01AE7851846753D80AC1C8CB9C4C7C5 /* Foundation.framework */; };
-		312271A7A9A52577D9EFB10A4E847694 /* Pods-DZLayoutTable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E73DCDFB91DD1CFE821DF72CD543FA1 /* Pods-DZLayoutTable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		386A00CC25532E58F44C425B0189ED83 /* DZLayoutTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B228E21D0A51197FFDC3C761B5C0A0 /* DZLayoutTableViewController.m */; };
-		3DCDD8108650838C6683F3FD57A25DE7 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACECAAC32464AA28589E8BBF5DF88C5C /* FBSnapshotTestController.m */; };
-		4DED035BFDFCBD7363A981B38173076D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF5AA5FDA82C7FD2802A36BB1F83485 /* XCTest.framework */; };
-		4F5F45FA7DD97F7571688E1E9926A65C /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = AA17D4E9B97B2F51C4FDDA55C5855F1A /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		544D0CD6C8BC83C704F182203A8E370D /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6DA6C71942F1776E8318F9994884E1 /* UIImage+Compare.m */; };
-		55BA58F93DEA8022610678D34C5A72AE /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 6373EEC5731A05FDE92BDEA082A1A4DB /* UIImage+Diff.m */; };
-		57E76B468C4F1DB1A48962B5E40E14A3 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695C130FAFB4516599FBC16BDEDAD3EF /* SwiftSupport.swift */; };
-		5AA5DF8EF1DBFEE8E7B3BFDC41688882 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F01AE7851846753D80AC1C8CB9C4C7C5 /* Foundation.framework */; };
-		624187C10F6F0EB06E325B28B3C5417C /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A9CCD5615D6459AD8BF1A1D3F84A992 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		65C5BEE2DF56E27C4E5CC30754DC5C95 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = BD64947B7E15880F337914E63BF2D76E /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6AF22BE0732BBF451C373BEBD77BC33E /* DZLayoutTable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19246BF0414A0CA36D412E2C053A6E42 /* DZLayoutTable-dummy.m */; };
-		700C04DC2260F37FAB8FB5A8F845826B /* AdjustFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F229FDEACD6B90AAAC7158462ED43F1 /* AdjustFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		703EAE9660BEAD98A80CAFAA78AC1C98 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384C540FC418DBCD49423348A1DE1494 /* UIKit.framework */; };
-		77A7AF9A30C72576486F56F5A7B1808E /* DZGrowLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 923FC809CA3CBEE0FF8563F636889C30 /* DZGrowLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7A236562FD54BE09785652E66D597C6B /* DZAdjustFrame-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28B0E92051892E2804998E689A734E56 /* DZAdjustFrame-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7EF5CFEB0A0B0A1D49A817740F407D3D /* DZGeometryTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32085F5379F69E0001ECB25FC2E3A9CF /* DZGeometryTools.framework */; };
-		8BC28DEC847E8D5BD5C396D4238A9555 /* DZGrowImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D4BC78075A448C201A79FF1EC5D7F47 /* DZGrowImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8CA103AE2834DF8E31B3C4237C70C900 /* DZAdjustFrame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C3DFB39E29E253B11747D272C131793 /* DZAdjustFrame.framework */; };
-		8DC6F8645EE88AA62B7D4376B3ECB6E9 /* DZGrowImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C33F736384A2EC3AFF1146EF1D4AEB99 /* DZGrowImageView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		8F73804C9653F9F3B1E784D908E529F7 /* DZAdjustTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD60EED705C6EDA8C4380592E331CDE /* DZAdjustTableView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		9376A284DDB75AC9210751A874B464FA /* AdjustFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B0A891A419B9031FF3AAFCFDAD7DB98 /* AdjustFrame.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		990A67E5B56497C13FFD6E5CBAF941B3 /* DZLayoutTable.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3CF10FCD54315AD9A272D2B7BAD861C5 /* DZLayoutTable.bundle */; };
-		99208105DED14527AF5AD5DB2DE71291 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F01AE7851846753D80AC1C8CB9C4C7C5 /* Foundation.framework */; };
-		9ABBB3242BBC1F4A17AC3100F288BAAD /* DZAdjustFrame-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB088964DF2C70C13FF7CDECCB167A6 /* DZAdjustFrame-dummy.m */; };
-		9C77F359F670954197BD372DDE9300ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F01AE7851846753D80AC1C8CB9C4C7C5 /* Foundation.framework */; };
-		A00BDD56E5B209AE5107ED9081E49E85 /* DZDevices.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EEB178CB27F937AAFB8D6765BBF6398 /* DZDevices.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A0CBC3A7530B060FB20CC4DF8B974762 /* DZAdjustTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 97FD7FE3CE7F269466B0F9600583D9C8 /* DZAdjustTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A15C9F01ACA61F744CD4C8F90DB9CCDC /* DZLayoutTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D3269BC61FE66284FEB2A4CBB2B448C1 /* DZLayoutTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A19C8464CFA803AF003625307F436796 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 80285F79A36AF4BA555D817A84A726E8 /* FBSnapshotTestCasePlatform.m */; };
-		A1E1730EAAE1217395418D81D59EDAB0 /* DZObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD74B13D516BA1481938EFC7A4BA743 /* DZObject.m */; };
-		A65565A9C275CFA2B9D7AB891BBE47EF /* DZLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 75ABFE708C118413793166C3CF4C58A8 /* DZLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A6716B5CA9846A9F08549711B0CF27BF /* DZAdjustFrame.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 58511A652526FBEBC0E1AD66B254A490 /* DZAdjustFrame.bundle */; };
-		ABDA0BED582E02366445C8912F7742F2 /* DZDevices.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3DDCEF992997D1B6184344A939AE7B /* DZDevices.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		B06E13D47D6F525A0910CEA327D26786 /* DZGeometryTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 438A59A3A6DE50815F29450AD9A78DD4 /* DZGeometryTools.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		B0F96756FA9B0D49008BFA2AEBCBD420 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384C540FC418DBCD49423348A1DE1494 /* UIKit.framework */; };
-		B704E29BCE34F93479137F1950143056 /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 39B2A1CB6683F479FED97822DAA3F3A2 /* Pods-Tests-dummy.m */; };
-		B9F2C321CFA2D254ACDEBF3AA2E20DC2 /* UIDeviceHardware.h in Headers */ = {isa = PBXBuildFile; fileRef = 4732F45AE7FA7F24C5455B2A11F57395 /* UIDeviceHardware.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BA22172FF0C8CE517DE508B907EDA254 /* DZLayoutTable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A6E5D9111531440B8DC2181E6775D1B /* DZLayoutTable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BF7F72496FD5DEEED23ACA5F65F80187 /* DZGeometryTools.h in Headers */ = {isa = PBXBuildFile; fileRef = B422B602368B42258581DA06B7E9F31D /* DZGeometryTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BF98ED7B1CBA71399B414ABF8262B0EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F01AE7851846753D80AC1C8CB9C4C7C5 /* Foundation.framework */; };
-		C369B574A5A3773A93B1A12A4035CD3B /* DZGeometryTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C679B5D63FB4B11849EBF16204BA7B4B /* DZGeometryTools-dummy.m */; };
-		C79AC94AC65F3657090D010F3ACFC441 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C3CB4C305566AAC78691B64B4AEDD29 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D4D14CB5321786B03CB7CA759F49DB0F /* DZTableDataSync.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C7E8DA289216840D5BA26ABBE988433 /* DZTableDataSync.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D5843F8A75D0AA96171E160463D03746 /* DZGrowTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AE7212925BDE75047D767268523CBE8 /* DZGrowTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D653AE9855972004C4DF86C72F7FEDED /* DZLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6EFD59BD9939D5398F1C41CF48D3ED /* DZLayout.m */; };
-		D8D6D0323FD45569190103C3933DEF46 /* DZGrowTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 06FA26E4B0B9A5B2EB9D4A4BC853F328 /* DZGrowTextView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		D927E284B5BC5AB9163548C5FEC88140 /* DZAdjustTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2476789ED107BB2D5AF7937C39392B5D /* DZAdjustTableViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		D979A2E0A3F13FE34A4BD50F87A2C651 /* Pods-DZLayoutTable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF3C899FB77BC4E417708151DEF8CEC /* Pods-DZLayoutTable-dummy.m */; };
-		DCE3D9B036191FB7208DFE9876E7ED1C /* DZGeometryTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F84C67E2C4A505B42B805431D60E4AD /* DZGeometryTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DFCC93BDF13D1FD91AE3B86009B9574D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FB17206B5AFC7C2784B5D69DD151D52E /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E8B003B06A4F6BE0A547C4531C04B9AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F01AE7851846753D80AC1C8CB9C4C7C5 /* Foundation.framework */; };
-		EBB15A8A632DB4DEE27A72E7D79478B9 /* DZGrowLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B77595C8CBF9B1DC987F7047C7C966E1 /* DZGrowLabel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		EC0D51773220F0461A382E81370C9095 /* DZGeometryTools.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E17E2C71B364502A377EEA3BF1892181 /* DZGeometryTools.bundle */; };
-		EDBF095328D8359757BF7FD1FDC481E2 /* DZAdjustTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = EF1240DB2B8FB98C633AF001C729C8A5 /* DZAdjustTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F21BD8D46E5A20071ED22E1A8C992D2F /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = FECEB2CFF3E705D60DCBED1D9A84860B /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F809442A2217BB0E61F9D19F8D1F3A2B /* Pods-Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9497634A6CD3BE1C7FF427D79F29C491 /* Pods-Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FBB395CE5830AAB1616013CBBF9E9FC4 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD391127D68A7A9A405565B05532FC04 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FDB8D8304419EFAC9DC2BDCC8918D25D /* DZObject.h in Headers */ = {isa = PBXBuildFile; fileRef = B110325A1DE0AB67D5C734184954DB02 /* DZObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		028ECBE8683D2F9891DD349999774130 /* DZAdjustTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 669492E93B7117648A8F252A856D7058 /* DZAdjustTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0746256179286F3C4EE7CF1BE161F077 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90857C2665A69C68C1A9BE9D82611745 /* Foundation.framework */; };
+		0973A38BC5AF273F97389776B3D57424 /* DZGrowLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = D8ED0670F37E666604252C73B904426E /* DZGrowLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		159AFA18FE31F5BE85C691351142CDAB /* DZAdjustFrame-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E2AD1A86AEBCDFC7059ED0D4AFC13AD /* DZAdjustFrame-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		163C6E8E5E7CEE1E0BEEB9CA0939DA3A /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = FE133CF9A1D1E17548F525794008D28C /* UIImage+Diff.m */; };
+		16E926D7187607B170A205DAE580BD37 /* Pods-Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D6AEE85DA3880889959163CE8832208 /* Pods-Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19E593CDBF02308988BD5E6B1064FAFD /* DZGrowTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 608DD1449300C2D6DD04E33E5872BEF0 /* DZGrowTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DBDCF4D12B5119B08ABCA0893E1AEBC /* DZAdjustTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9327F1F44EF698AEBA07E0384FCA9A8D /* DZAdjustTableView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1E69E0A31C972CDBEB503AFC00F8B8D1 /* DZLayoutTable.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2E37AAAC0AF1F82AF3864A5E94E05E09 /* DZLayoutTable.bundle */; };
+		1F118728B3D74089480152A6B660EA9A /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 54525E6DC29C391DF46EF86472A7901B /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		28F2071FFF5C5B0E9DEB6C3FE43A30CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4343608DFE75CA7F6F1AEAC04EF6F86E /* UIKit.framework */; };
+		2B83BBBEC448D9C7E275F6F9BEAA44EA /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7ACAD2A84843209B02574981C44778 /* Pods-Tests-dummy.m */; };
+		35848D70EAC9237246BDF63457729694 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6166CE7C2DDF36749B5F3CE87EC25C /* FBSnapshotTestCase.m */; };
+		3FFFF77A9AD243EFEDB695CD058F7B45 /* DZDevices.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FABCCB17438EDAB5779579811A2471 /* DZDevices.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		41D8739E2720D3535592391C25507158 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 84E4C69E00EBB57EDFB27645EA9AFE7C /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		439393DD2844CBAC8F8D2143C43AF880 /* UIDeviceHardware.m in Sources */ = {isa = PBXBuildFile; fileRef = 553563086B329AED8A89CA4D21A391D5 /* UIDeviceHardware.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		45D65DF26C7E9B19122AE5BA269023A2 /* AdjustFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 448C60C55A8B7296CF1FF8F594860C3A /* AdjustFrame.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4777DB20AA3AB4873CF69F114384A827 /* DZAdjustTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E23987BBE93B1B748A6CC6C72F8B8AE /* DZAdjustTableViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4EAC4380E7A6C9A31DB0F2AAEB41EA19 /* DZLayoutTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 751D43CD620687EE21353B2A0A304B47 /* DZLayoutTableViewCell.m */; };
+		52B0263F90696E7FD87CB146D5C5E2C1 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = ACBC1BBED1DB5EE04326FCDB796B4FB5 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		52F7A46AB0053D8BB1D793B917D37BB2 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A980DB1A5EC7AE04437DB4D37D9F936 /* SwiftSupport.swift */; };
+		5A83576339E2B0BB46ED5D5DFBE63EE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90857C2665A69C68C1A9BE9D82611745 /* Foundation.framework */; };
+		5B1F4702CFD552CE00435AB6AB10F1E7 /* DZGeometryTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 45C96C682E6C3EF3373439E74F890B54 /* DZGeometryTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D14695A69EC4A8DF7488D0FC59C105C /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = EC256F6D21C3B1654676438888DEC736 /* FBSnapshotTestCasePlatform.m */; };
+		5D2FB71FDB5F96CC6E65B76503C0491B /* DZGeometryTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C39E90838A7B3D5F2E83597AB791D08C /* DZGeometryTools.framework */; };
+		5D558F3EBE677CF55AF868CD69A243D2 /* DZTableDataSync.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A0858AF435CF73AD47E1631C5BC7F19 /* DZTableDataSync.m */; };
+		615128475D0AA0036BC92174E37647A6 /* DZGrowLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E042FCFB415DFDB2F51CA61C0ECB01 /* DZGrowLabel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6881644EF00AA687010B3995530BBC1C /* DZTableDataSync.h in Headers */ = {isa = PBXBuildFile; fileRef = FE36248B5A646174574DE7571537DF71 /* DZTableDataSync.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E1DDEAF66312F1163B06EFAB8295E7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90857C2665A69C68C1A9BE9D82611745 /* Foundation.framework */; };
+		6F84010DFF9F8DE335AF5302B01814AF /* DZGrowImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = F6B22E20572475880ADEE20A67411627 /* DZGrowImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		723FDDFD804188090511DEFA8309A06B /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F28F386572927CAE460DB771F628459 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		767BCEB441C374AEF56C5A255BD7D7FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90857C2665A69C68C1A9BE9D82611745 /* Foundation.framework */; };
+		788E3D9458FE9540469981BE9A0B227C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F3D0023ACB2FE4F889BED8AFF98CB0E /* UIImage+Compare.m */; };
+		79103FBDACA8CCF84920310E7D17F6FF /* DZAdjustFrame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 796FE0EF153E62316E7E2AF63A832C35 /* DZAdjustFrame.framework */; };
+		7953E45807E26652482397320BFC0C80 /* Pods-DZLayoutTable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DBD217514AD4F57A2F38380C43776E39 /* Pods-DZLayoutTable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A961179A6473A2D62D855B1ED8409AE /* AdjustFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = DF0ACE0D8802A767ED5ADB38FA827CD3 /* AdjustFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BEF20E09F0E864478905311672F91AB /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = F66B06C5FBD452AF733BB42620467DDC /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DF89C003C727B4B3EF5F3F77CA0B156 /* DZAdjustTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 001073B86D3158CF1DC03FB1F3CF0631 /* DZAdjustTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FD8BE412B904E3404EC42CE62C225B8 /* Pods-DZLayoutTable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8704DE817B01185CC223B6A760223B /* Pods-DZLayoutTable-dummy.m */; };
+		821A26883ED14BDCD7EBADD37D671D17 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = E6F427765E03125DC6FC47B3B2426C74 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A6053B817F0E6FD424C70E5A589CF83 /* DZGeometryTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F6F103BC3F64055FCD645DBFB9849D7B /* DZGeometryTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BB7296BF6B937409509E0A2FCCD9694 /* DZLayoutTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DC023BB619E8AAD48372609F6FFCF23 /* DZLayoutTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D549E01DA1D5104335CCEABFF870005 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90857C2665A69C68C1A9BE9D82611745 /* Foundation.framework */; };
+		8F8A5E8CBFF971B338A837BE88B52466 /* DZLayoutTable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 513FF162E0134D4D136792C42111F3C7 /* DZLayoutTable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FDD960E402B6285BC81D3AEEAB8ECBE /* DZLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 648844008C513DD8B1A1BC8C77587A07 /* DZLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A140040C65ABD9BFBF0B7EA3D3FC7FB2 /* DZGeometryTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FB862198DBE5DC378705C881112FE /* DZGeometryTools-dummy.m */; };
+		A511420550AFACE33FF155289399C499 /* DZLayoutTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB74302AD071AE0058A8C8610F63055 /* DZLayoutTableViewController.m */; };
+		A9581672AAC215E634EBA38B0C40B29D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4343608DFE75CA7F6F1AEAC04EF6F86E /* UIKit.framework */; };
+		AA8501741ABB8D75C6C47DE086BACD37 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5D197E1484887ADBB52F40BC5E9015 /* FBSnapshotTestController.m */; };
+		ACCF13200573F8E4971DF5622DEA39E5 /* DZLayoutTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = DB8C04BCFC4AFB314787F634C9360D6E /* DZLayoutTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD4D905241DED4AEAD67447088ACB23D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE83E214998742B7E5917A659BECCFFF /* XCTest.framework */; };
+		AD56736774DF8EF678BCA94F8F5CB746 /* DZSectionDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7B9E6239F5B93F4CCDC86CD1ECD78C /* DZSectionDataController.m */; };
+		B192A29BC71BB0257110EAF9BCEE6E03 /* DZGrowTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFD42FB24AE680D2DFC79725BF3B1DA /* DZGrowTextView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B4B2EC68F35CF972A7BF386E62B8C64B /* DZSectionDataController.h in Headers */ = {isa = PBXBuildFile; fileRef = 707F3085DF9F544AB74C17F923029F30 /* DZSectionDataController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B92F74794360CEB78733FD48C7D5EA4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90857C2665A69C68C1A9BE9D82611745 /* Foundation.framework */; };
+		C3542261C409074C2A652D9F199DA550 /* DZAdjustFrame-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB358A798152FE1C6CB5E5CE1AAD2586 /* DZAdjustFrame-dummy.m */; };
+		CC2BD0A04199B280AD93F459968CAFC2 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91640535636DD6FD8F3323A28FF19735 /* FBSnapshotTestCase-dummy.m */; };
+		CCA00856FF357381221B31F60FC50FC7 /* UIDeviceHardware.h in Headers */ = {isa = PBXBuildFile; fileRef = B463D228422B1730ED6B13146B190E20 /* UIDeviceHardware.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF9DB2096C715EA61E263021EE406DB1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8CECE537A764DE6FB3EA4F4422A6118 /* QuartzCore.framework */; };
+		D2B8E1DCEF17D90EEE477F547DCB3FB3 /* DZGeometryTools.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 432D92899F40DCC11D05F087537DEAE6 /* DZGeometryTools.bundle */; };
+		DA480737A83FE56F86E8FD3FF271B345 /* DZDevices.h in Headers */ = {isa = PBXBuildFile; fileRef = 068CDC93BC2213CAC1841A08CB59CEA9 /* DZDevices.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD68D1CA53E239DDF1A00D323B1D3F43 /* DZGeometryTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 68523C23EED703218820C15219307BCC /* DZGeometryTools.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EDD91D0CC316AC322E1607D3749F1C0A /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 1574840CC44FB42D91958A5FDB79BEB0 /* UIImage+Snapshot.m */; };
+		F14326D9B3A48160FE70F707E67A3B81 /* DZAdjustFrame.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CE199ADEF48A47A794C164C3BED83E5B /* DZAdjustFrame.bundle */; };
+		F1CFA387566B4908BC73DDFD8FE6134F /* DZGrowImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D3956F0F0ECB425487D1D1D3656611 /* DZGrowImageView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F3864ABE5C26AC062CA71DEF72F7E9DE /* DZLayoutTable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEB2AD05A5C9B19EFCE5D80D288A1C5 /* DZLayoutTable-dummy.m */; };
+		F83DF4ACB972FE417577BF77334CC59B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4343608DFE75CA7F6F1AEAC04EF6F86E /* UIKit.framework */; };
+		FB64F2C7AAB3BAED28747BDFD15359DF /* DZLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C61E2F3825817ED3306840D8A5EA31FB /* DZLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		16A8E0DDEDB2B8CBC42A07A9AD95FCF5 /* PBXContainerItemProxy */ = {
+		183B8CF649F750D21254CD3D62C86FE9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C48BB5F4329779B16A351909912C17E2;
+			remoteGlobalIDString = 6FA93A9748FB15EDF612C779115876CD;
+			remoteInfo = DZGeometryTools;
+		};
+		419565CF58C29338B218C66316BEE6D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FA93A9748FB15EDF612C779115876CD;
+			remoteInfo = DZGeometryTools;
+		};
+		4DDC5E9E29F64B359EDB47A3D704434E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 014756CE66A0625A61CE7E77F60A5D62;
+			remoteInfo = DZLayoutTable;
+		};
+		551C74A6A2F5BCB34195BB9268DF529E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 014756CE66A0625A61CE7E77F60A5D62;
+			remoteInfo = DZLayoutTable;
+		};
+		6564BF3D95B2E66F987EAC6BAD2FD6BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BE19DB19175A3D00427BD1B5E9FAD5A;
+			remoteInfo = DZAdjustFrame;
+		};
+		86EC4B3DB835C257E8D8E25911C19A33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE7DCD3ECFE65961F3E1753D1D5EE827;
 			remoteInfo = "DZAdjustFrame-DZAdjustFrame";
 		};
-		34DE4933E3E9433ABFE4915F64E85E0E /* PBXContainerItemProxy */ = {
+		96F7013297F8F2214FA132BA8C193E57 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B6D637B8990603A39B414B5B70291CB2;
-			remoteInfo = DZGeometryTools;
-		};
-		377A784B2068645C592D742C2C5AF9D9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B6D637B8990603A39B414B5B70291CB2;
-			remoteInfo = DZGeometryTools;
-		};
-		41DEE018A24D412550D40D63008359AD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B6D637B8990603A39B414B5B70291CB2;
-			remoteInfo = DZGeometryTools;
-		};
-		6CE047A7800DEA5B7E7AF65E719D4648 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D5A4E36F8D3E012908C2899F8D9186D3;
-			remoteInfo = DZLayoutTable;
-		};
-		9442F8096B0A8B7EFE2DABEEE6C832EB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F1486931F4A7F62AD367A244510ED9E3;
-			remoteInfo = "DZGeometryTools-DZGeometryTools";
-		};
-		B1F231831546730F869EE5D4B05C3A0A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AB9AEF8A1B861BCC8517BF227853670E;
+			remoteGlobalIDString = 1BE19DB19175A3D00427BD1B5E9FAD5A;
 			remoteInfo = DZAdjustFrame;
 		};
-		B22FD24FF08F462075EA291CBDFADE67 /* PBXContainerItemProxy */ = {
+		AB77B08AC73BDD88367996AF39D3AB32 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AB9AEF8A1B861BCC8517BF227853670E;
-			remoteInfo = DZAdjustFrame;
-		};
-		C927EB60F6569EEED91B9D5A501A7D0E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AB9AEF8A1B861BCC8517BF227853670E;
-			remoteInfo = DZAdjustFrame;
-		};
-		D7EB635EB87A76DBE89F9BE14A9AAE6C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B4940C27B03B6CBC2803DEF44F4A7787;
-			remoteInfo = "DZLayoutTable-DZLayoutTable";
-		};
-		DF3541C8A8C4AC3FCF21637906C0FBE1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 41BFBC1CCEE8317507722C984524C5F4;
+			remoteGlobalIDString = A5C935B614DD08342117AD0B06959CB9;
 			remoteInfo = FBSnapshotTestCase;
 		};
-		ED56768D3C5A2A1C448E8917F5C6926C /* PBXContainerItemProxy */ = {
+		C29EBD194DD9DDBC600271B5FEF1B6BD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D5A4E36F8D3E012908C2899F8D9186D3;
-			remoteInfo = DZLayoutTable;
+			remoteGlobalIDString = 6FA93A9748FB15EDF612C779115876CD;
+			remoteInfo = DZGeometryTools;
+		};
+		D091C97DB38FF5A2770D3BF1D64874BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C9CA8AE4A6D70EAFFD358AE1328A941;
+			remoteInfo = "DZLayoutTable-DZLayoutTable";
+		};
+		DF143FF55B33FA8F0EA83DDD93F74247 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7ABE2E0D13C9C7228E6B38A9EACDAE1B;
+			remoteInfo = "DZGeometryTools-DZGeometryTools";
+		};
+		FC1115F4A113F92D721DB02AE366BCA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BE19DB19175A3D00427BD1B5E9FAD5A;
+			remoteInfo = DZAdjustFrame;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06FA26E4B0B9A5B2EB9D4A4BC853F328 /* DZGrowTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DZGrowTextView.m; path = Pod/Classes/DZGrowTextView.m; sourceTree = "<group>"; };
+		001073B86D3158CF1DC03FB1F3CF0631 /* DZAdjustTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DZAdjustTableView.h; path = Pod/Classes/DZAdjustTableView.h; sourceTree = "<group>"; };
+		068CDC93BC2213CAC1841A08CB59CEA9 /* DZDevices.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DZDevices.h; path = Pod/Classes/DZDevices.h; sourceTree = "<group>"; };
+		06EE364D868B52351B6C33D5F0AF8445 /* DZGeometryTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DZGeometryTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		09C7F319D748D3394777EDD613C4423A /* Pods-DZLayoutTable-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DZLayoutTable-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0A6E5D9111531440B8DC2181E6775D1B /* DZLayoutTable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DZLayoutTable-umbrella.h"; sourceTree = "<group>"; };
-		0AD60EED705C6EDA8C4380592E331CDE /* DZAdjustTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DZAdjustTableView.m; path = Pod/Classes/DZAdjustTableView.m; sourceTree = "<group>"; };
-		0BBB0752A9092602E0F8BA71541908E5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0C3CB4C305566AAC78691B64B4AEDD29 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		0D129163FDF47F587E5DFB3EA1E5227A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0DE0F358AC327F4D7FAF457B110A062D /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		12FB4949CA54F7042310556C0CDA7F22 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		13FAC09C8C7B044E12A10F2D8DBCFAA5 /* DZAdjustFrame.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DZAdjustFrame.modulemap; sourceTree = "<group>"; };
-		19246BF0414A0CA36D412E2C053A6E42 /* DZLayoutTable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DZLayoutTable-dummy.m"; sourceTree = "<group>"; };
-		1D4BC78075A448C201A79FF1EC5D7F47 /* DZGrowImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DZGrowImageView.h; path = Pod/Classes/DZGrowImageView.h; sourceTree = "<group>"; };
-		1D4F7D1E20649C29CBCCB8CB04A43269 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		20A5111A46D18992B912F5F22F4C85F8 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
-		2476789ED107BB2D5AF7937C39392B5D /* DZAdjustTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DZAdjustTableViewController.m; path = Pod/Classes/DZAdjustTableViewController.m; sourceTree = "<group>"; };
-		28B0E92051892E2804998E689A734E56 /* DZAdjustFrame-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DZAdjustFrame-umbrella.h"; sourceTree = "<group>"; };
-		2BB088964DF2C70C13FF7CDECCB167A6 /* DZAdjustFrame-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DZAdjustFrame-dummy.m"; sourceTree = "<group>"; };
-		2C7E8DA289216840D5BA26ABBE988433 /* DZTableDataSync.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DZTableDataSync.h; sourceTree = "<group>"; };
-		2EEB178CB27F937AAFB8D6765BBF6398 /* DZDevices.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DZDevices.h; path = Pod/Classes/DZDevices.h; sourceTree = "<group>"; };
-		32066E6504F1851390C93228AA8B5711 /* Pods-DZLayoutTable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DZLayoutTable.release.xcconfig"; sourceTree = "<group>"; };
-		32085F5379F69E0001ECB25FC2E3A9CF /* DZGeometryTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DZGeometryTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1574840CC44FB42D91958A5FDB79BEB0 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		25C590CAC089BD432C175AE4F5DED9F4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B0F572BDDE75BA89B6BA9CE772668F4 /* Pods-DZLayoutTable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DZLayoutTable.release.xcconfig"; sourceTree = "<group>"; };
+		2DC023BB619E8AAD48372609F6FFCF23 /* DZLayoutTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DZLayoutTableViewController.h; sourceTree = "<group>"; };
+		2E37AAAC0AF1F82AF3864A5E94E05E09 /* DZLayoutTable.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DZLayoutTable.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F5D197E1484887ADBB52F40BC5E9015 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		342093C0EF1DC541F6A6DE8B35B2278C /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		384C540FC418DBCD49423348A1DE1494 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		38C691DBA64DF76D4B0B4DF983D979DB /* DZGeometryTools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DZGeometryTools.xcconfig; sourceTree = "<group>"; };
-		39B2A1CB6683F479FED97822DAA3F3A2 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
+		3A0858AF435CF73AD47E1631C5BC7F19 /* DZTableDataSync.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DZTableDataSync.m; sourceTree = "<group>"; };
+		3A6166CE7C2DDF36749B5F3CE87EC25C /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		3C5FB862198DBE5DC378705C881112FE /* DZGeometryTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DZGeometryTools-dummy.m"; sourceTree = "<group>"; };
 		3C88D2F18022901A9AC2745233CC1398 /* Pods-DZLayoutTable-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DZLayoutTable-acknowledgements.plist"; sourceTree = "<group>"; };
-		3CF10FCD54315AD9A272D2B7BAD861C5 /* DZLayoutTable.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DZLayoutTable.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		3EF3C899FB77BC4E417708151DEF8CEC /* Pods-DZLayoutTable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DZLayoutTable-dummy.m"; sourceTree = "<group>"; };
-		3F229FDEACD6B90AAAC7158462ED43F1 /* AdjustFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdjustFrame.h; path = Pod/Classes/AdjustFrame.h; sourceTree = "<group>"; };
-		3F6EFD59BD9939D5398F1C41CF48D3ED /* DZLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DZLayout.m; sourceTree = "<group>"; };
-		3F84C67E2C4A505B42B805431D60E4AD /* DZGeometryTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DZGeometryTools-umbrella.h"; sourceTree = "<group>"; };
-		435273A9403EF80E63FBCCB4CF0A5D11 /* DZGeometryTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DZGeometryTools-prefix.pch"; sourceTree = "<group>"; };
-		4353C1D7DF286789623BD6FFEBFA5D45 /* DZTableDataSync.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DZTableDataSync.m; sourceTree = "<group>"; };
-		438A59A3A6DE50815F29450AD9A78DD4 /* DZGeometryTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DZGeometryTools.m; path = Pod/Classes/DZGeometryTools.m; sourceTree = "<group>"; };
-		4732F45AE7FA7F24C5455B2A11F57395 /* UIDeviceHardware.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UIDeviceHardware.h; path = Pod/Classes/UIDeviceHardware.h; sourceTree = "<group>"; };
-		48B228E21D0A51197FFDC3C761B5C0A0 /* DZLayoutTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DZLayoutTableViewController.m; sourceTree = "<group>"; };
-		4A9CCD5615D6459AD8BF1A1D3F84A992 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		4B3DDCEF992997D1B6184344A939AE7B /* DZDevices.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DZDevices.m; path = Pod/Classes/DZDevices.m; sourceTree = "<group>"; };
-		4BE6C5832487A349EA9E7DBB5247AFB7 /* Pods_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		57E4558107E59C3EF367AFE8764CB849 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
-		58511A652526FBEBC0E1AD66B254A490 /* DZAdjustFrame.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DZAdjustFrame.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		5997551B1B3AFBC19CCC7B1EE42B2DEB /* Pods_DZLayoutTable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DZLayoutTable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E137535E85F8294EBE6312C6FC05048 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
+		3CA3B832CB8CBCDC0F204692FE8DDD23 /* DZLayoutTable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DZLayoutTable-prefix.pch"; sourceTree = "<group>"; };
+		3D6AD20E7561CFEF13BAD8A0E5CE70D2 /* DZAdjustFrame-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DZAdjustFrame-prefix.pch"; sourceTree = "<group>"; };
+		3E2AD1A86AEBCDFC7059ED0D4AFC13AD /* DZAdjustFrame-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DZAdjustFrame-umbrella.h"; sourceTree = "<group>"; };
+		432D92899F40DCC11D05F087537DEAE6 /* DZGeometryTools.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DZGeometryTools.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		4343608DFE75CA7F6F1AEAC04EF6F86E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		44072DD373674A32B9683EC4891ED13E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		448C60C55A8B7296CF1FF8F594860C3A /* AdjustFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AdjustFrame.m; path = Pod/Classes/AdjustFrame.m; sourceTree = "<group>"; };
+		44E042FCFB415DFDB2F51CA61C0ECB01 /* DZGrowLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DZGrowLabel.m; path = Pod/Classes/DZGrowLabel.m; sourceTree = "<group>"; };
+		45C96C682E6C3EF3373439E74F890B54 /* DZGeometryTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DZGeometryTools.h; path = Pod/Classes/DZGeometryTools.h; sourceTree = "<group>"; };
+		471DFB02A6747B3C6643C8C0E934002A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		513FF162E0134D4D136792C42111F3C7 /* DZLayoutTable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DZLayoutTable-umbrella.h"; sourceTree = "<group>"; };
+		51CB48E1261B7007E1E1AB71D1271E04 /* Pods_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52FABCCB17438EDAB5779579811A2471 /* DZDevices.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DZDevices.m; path = Pod/Classes/DZDevices.m; sourceTree = "<group>"; };
+		5315DFEF517788B7A35306CA00658E1A /* DZGeometryTools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DZGeometryTools.xcconfig; sourceTree = "<group>"; };
+		53D14A435FB72DADE08ED2606BEE1D52 /* Pods-DZLayoutTable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DZLayoutTable.debug.xcconfig"; sourceTree = "<group>"; };
+		54525E6DC29C391DF46EF86472A7901B /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		553563086B329AED8A89CA4D21A391D5 /* UIDeviceHardware.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UIDeviceHardware.m; path = Pod/Classes/UIDeviceHardware.m; sourceTree = "<group>"; };
+		5BE6F151F9202D85A8B842A5913F4A2C /* DZLayoutTable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DZLayoutTable.xcconfig; sourceTree = "<group>"; };
+		5DD57D16B65CCFDA07E0A63904F5E093 /* DZLayoutTable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DZLayoutTable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		60487DA279B1B26DE704FCD06E9B5CCC /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
-		62393B9608B3FDD65A0B01A158F91C5E /* DZGeometryTools-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "DZGeometryTools-Private.xcconfig"; sourceTree = "<group>"; };
-		6373EEC5731A05FDE92BDEA082A1A4DB /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
-		695C130FAFB4516599FBC16BDEDAD3EF /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
-		6B0A891A419B9031FF3AAFCFDAD7DB98 /* AdjustFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AdjustFrame.m; path = Pod/Classes/AdjustFrame.m; sourceTree = "<group>"; };
-		6BB502D7A4998FFC1A23523F31A917DB /* DZLayoutTable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DZLayoutTable.modulemap; sourceTree = "<group>"; };
-		6C3DFB39E29E253B11747D272C131793 /* DZAdjustFrame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DZAdjustFrame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		608DD1449300C2D6DD04E33E5872BEF0 /* DZGrowTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DZGrowTextView.h; path = Pod/Classes/DZGrowTextView.h; sourceTree = "<group>"; };
+		648844008C513DD8B1A1BC8C77587A07 /* DZLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DZLayout.h; sourceTree = "<group>"; };
+		669492E93B7117648A8F252A856D7058 /* DZAdjustTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DZAdjustTableViewController.h; path = Pod/Classes/DZAdjustTableViewController.h; sourceTree = "<group>"; };
+		68523C23EED703218820C15219307BCC /* DZGeometryTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DZGeometryTools.m; path = Pod/Classes/DZGeometryTools.m; sourceTree = "<group>"; };
 		6C6AF9805396B5A7E30501DC35052850 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7301403B07FF9585A1FF1A1FB37B6969 /* DZAdjustFrame-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "DZAdjustFrame-Private.xcconfig"; sourceTree = "<group>"; };
-		75ABFE708C118413793166C3CF4C58A8 /* DZLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DZLayout.h; sourceTree = "<group>"; };
-		7AE7212925BDE75047D767268523CBE8 /* DZGrowTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DZGrowTextView.h; path = Pod/Classes/DZGrowTextView.h; sourceTree = "<group>"; };
-		7B855488BCB23154B3958B99B785D1A2 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		80285F79A36AF4BA555D817A84A726E8 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		707F3085DF9F544AB74C17F923029F30 /* DZSectionDataController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DZSectionDataController.h; sourceTree = "<group>"; };
+		751D43CD620687EE21353B2A0A304B47 /* DZLayoutTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DZLayoutTableViewCell.m; sourceTree = "<group>"; };
+		77D3956F0F0ECB425487D1D1D3656611 /* DZGrowImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DZGrowImageView.m; path = Pod/Classes/DZGrowImageView.m; sourceTree = "<group>"; };
+		796FE0EF153E62316E7E2AF63A832C35 /* DZAdjustFrame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DZAdjustFrame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C1DFD70E77036F306B60B8DDC0D6F6C /* DZGeometryTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DZGeometryTools.modulemap; sourceTree = "<group>"; };
+		7E23987BBE93B1B748A6CC6C72F8B8AE /* DZAdjustTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DZAdjustTableViewController.m; path = Pod/Classes/DZAdjustTableViewController.m; sourceTree = "<group>"; };
+		7F28F386572927CAE460DB771F628459 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		81D357E4035A47EDB12BBB9F67A0459C /* DZAdjustFrame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DZAdjustFrame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E4C69E00EBB57EDFB27645EA9AFE7C /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		86153D09153F2A71F303FF2778ACEB20 /* DZAdjustFrame.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DZAdjustFrame.modulemap; sourceTree = "<group>"; };
+		8A8704DE817B01185CC223B6A760223B /* Pods-DZLayoutTable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DZLayoutTable-dummy.m"; sourceTree = "<group>"; };
+		8AEB2AD05A5C9B19EFCE5D80D288A1C5 /* DZLayoutTable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DZLayoutTable-dummy.m"; sourceTree = "<group>"; };
 		8AEE5A19687A4AAE0921B144B05CA6CC /* Pods-DZLayoutTable-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DZLayoutTable-resources.sh"; sourceTree = "<group>"; };
-		8D929333E127563EE0591464D16311F7 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		923FC809CA3CBEE0FF8563F636889C30 /* DZGrowLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DZGrowLabel.h; path = Pod/Classes/DZGrowLabel.h; sourceTree = "<group>"; };
-		9424CF4505E784517EB0E361398A0554 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9497634A6CD3BE1C7FF427D79F29C491 /* Pods-Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-umbrella.h"; sourceTree = "<group>"; };
-		97904A07533B5626DDFE1132FDFB0939 /* DZLayoutTable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DZLayoutTable-prefix.pch"; sourceTree = "<group>"; };
-		97FD7FE3CE7F269466B0F9600583D9C8 /* DZAdjustTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DZAdjustTableViewController.h; path = Pod/Classes/DZAdjustTableViewController.h; sourceTree = "<group>"; };
-		9B2DD4E79C08E6F04F873E7714D77518 /* DZGeometryTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DZGeometryTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9E73DCDFB91DD1CFE821DF72CD543FA1 /* Pods-DZLayoutTable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DZLayoutTable-umbrella.h"; sourceTree = "<group>"; };
+		8F3D0023ACB2FE4F889BED8AFF98CB0E /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		90857C2665A69C68C1A9BE9D82611745 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		91640535636DD6FD8F3323A28FF19735 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		9327F1F44EF698AEBA07E0384FCA9A8D /* DZAdjustTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DZAdjustTableView.m; path = Pod/Classes/DZAdjustTableView.m; sourceTree = "<group>"; };
+		9A980DB1A5EC7AE04437DB4D37D9F936 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		9C7ACAD2A84843209B02574981C44778 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
+		9D6AEE85DA3880889959163CE8832208 /* Pods-Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-umbrella.h"; sourceTree = "<group>"; };
 		A375D35A3603114962C32C310DDB29C4 /* Pods-Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Tests.modulemap"; sourceTree = "<group>"; };
-		A8D6DCE96EA6B9C108C25C0EA78A173E /* DZAdjustFrame-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DZAdjustFrame-prefix.pch"; sourceTree = "<group>"; };
-		AA17D4E9B97B2F51C4FDDA55C5855F1A /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
-		AA6BCF878110FA7E0571445C5719875A /* DZLayoutTable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DZLayoutTable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA6DA6C71942F1776E8318F9994884E1 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
-		ACB3991A8F7879FF4D719F01896BBA32 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ACECAAC32464AA28589E8BBF5DF88C5C /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		B0B27342FBB0CDC5111F9632C63B585E /* Pods-DZLayoutTable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DZLayoutTable.debug.xcconfig"; sourceTree = "<group>"; };
-		B110325A1DE0AB67D5C734184954DB02 /* DZObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DZObject.h; sourceTree = "<group>"; };
-		B422B602368B42258581DA06B7E9F31D /* DZGeometryTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DZGeometryTools.h; path = Pod/Classes/DZGeometryTools.h; sourceTree = "<group>"; };
-		B77595C8CBF9B1DC987F7047C7C966E1 /* DZGrowLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DZGrowLabel.m; path = Pod/Classes/DZGrowLabel.m; sourceTree = "<group>"; };
+		AB388308AD4202D3A51835106C44FBDC /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACBC1BBED1DB5EE04326FCDB796B4FB5 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		B463D228422B1730ED6B13146B190E20 /* UIDeviceHardware.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UIDeviceHardware.h; path = Pod/Classes/UIDeviceHardware.h; sourceTree = "<group>"; };
+		B47302C0B638602AEFAAEBAD7FF1D91E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5288A5E31492EDCCCB9739C4DD183CD /* Pods_DZLayoutTable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DZLayoutTable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BB7414F12871B2846F197216CAD7ED5E /* FBSnapshotTestCase-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "FBSnapshotTestCase-Private.xcconfig"; sourceTree = "<group>"; };
-		BD64947B7E15880F337914E63BF2D76E /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		BDF5AA5FDA82C7FD2802A36BB1F83485 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		C2E3CF7E6EB2CABD4F68F509C8A100E2 /* DZLayoutTable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DZLayoutTable.xcconfig; sourceTree = "<group>"; };
-		C33F736384A2EC3AFF1146EF1D4AEB99 /* DZGrowImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DZGrowImageView.m; path = Pod/Classes/DZGrowImageView.m; sourceTree = "<group>"; };
-		C589458A4A6ED33619A59BBE690625EC /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C679B5D63FB4B11849EBF16204BA7B4B /* DZGeometryTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DZGeometryTools-dummy.m"; sourceTree = "<group>"; };
-		C773A23AC83F519150A954BE2745C7A5 /* DZLayoutTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DZLayoutTableViewCell.h; sourceTree = "<group>"; };
-		CD391127D68A7A9A405565B05532FC04 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
-		D268F30E148DAFD03C89B8B5B1C26CE1 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
-		D3269BC61FE66284FEB2A4CBB2B448C1 /* DZLayoutTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DZLayoutTableViewController.h; sourceTree = "<group>"; };
-		D4979450F52A95EE939CF43653EFE1A8 /* DZAdjustFrame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DZAdjustFrame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D85AF0CF4281FAADBF8551C1B8BEEB79 /* DZLayoutTable-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "DZLayoutTable-Private.xcconfig"; sourceTree = "<group>"; };
-		DAED8E92CAAC6C9D68AA9D02A17C26E3 /* UIDeviceHardware.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UIDeviceHardware.m; path = Pod/Classes/UIDeviceHardware.m; sourceTree = "<group>"; };
-		E17E2C71B364502A377EEA3BF1892181 /* DZGeometryTools.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DZGeometryTools.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		E3077FA70E5625DF5557492963C00B0C /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BE83E214998742B7E5917A659BECCFFF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BFB74302AD071AE0058A8C8610F63055 /* DZLayoutTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DZLayoutTableViewController.m; sourceTree = "<group>"; };
+		C39E90838A7B3D5F2E83597AB791D08C /* DZGeometryTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DZGeometryTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4C27EC4E31F4F91156334922277499C /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		C5824588B8CA41DC3749515D8FFF5C67 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
+		C61E2F3825817ED3306840D8A5EA31FB /* DZLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DZLayout.m; sourceTree = "<group>"; };
+		C75404B502F4F027586E049480D9CC7D /* DZLayoutTable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DZLayoutTable.modulemap; sourceTree = "<group>"; };
+		CB358A798152FE1C6CB5E5CE1AAD2586 /* DZAdjustFrame-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DZAdjustFrame-dummy.m"; sourceTree = "<group>"; };
+		CB9F6F172FCF27FEEF7EFA9288E35116 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE199ADEF48A47A794C164C3BED83E5B /* DZAdjustFrame.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DZAdjustFrame.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		D028F360962DE793BAE1D09E37BF6FCC /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D8ED0670F37E666604252C73B904426E /* DZGrowLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DZGrowLabel.h; path = Pod/Classes/DZGrowLabel.h; sourceTree = "<group>"; };
+		DB8C04BCFC4AFB314787F634C9360D6E /* DZLayoutTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DZLayoutTableViewCell.h; sourceTree = "<group>"; };
+		DBD217514AD4F57A2F38380C43776E39 /* Pods-DZLayoutTable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DZLayoutTable-umbrella.h"; sourceTree = "<group>"; };
+		DC7B9E6239F5B93F4CCDC86CD1ECD78C /* DZSectionDataController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DZSectionDataController.m; sourceTree = "<group>"; };
+		DD39FF79F1744729246D2D3C2E2E19D4 /* DZGeometryTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DZGeometryTools-prefix.pch"; sourceTree = "<group>"; };
+		DF0ACE0D8802A767ED5ADB38FA827CD3 /* AdjustFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdjustFrame.h; path = Pod/Classes/AdjustFrame.h; sourceTree = "<group>"; };
+		DFFD42FB24AE680D2DFC79725BF3B1DA /* DZGrowTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DZGrowTextView.m; path = Pod/Classes/DZGrowTextView.m; sourceTree = "<group>"; };
+		E6F427765E03125DC6FC47B3B2426C74 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		EAE1A9BCA332293917049FDAF816800C /* DZAdjustFrame.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DZAdjustFrame.xcconfig; sourceTree = "<group>"; };
 		EB83EC464D46315952212B4DCDF15AF6 /* Pods-Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-frameworks.sh"; sourceTree = "<group>"; };
-		EF1240DB2B8FB98C633AF001C729C8A5 /* DZAdjustTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DZAdjustTableView.h; path = Pod/Classes/DZAdjustTableView.h; sourceTree = "<group>"; };
+		EC256F6D21C3B1654676438888DEC736 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		EFFB39ADAE00C24F672CDAC027DF74D7 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F006CF421407E0BB8FCBAF6952F2C2D1 /* Pods-DZLayoutTable-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DZLayoutTable-frameworks.sh"; sourceTree = "<group>"; };
-		F01AE7851846753D80AC1C8CB9C4C7C5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		F374DB485E02BE3500C934233C0BE42F /* DZAdjustFrame.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DZAdjustFrame.xcconfig; sourceTree = "<group>"; };
 		F51F544E0726A5CDC63A3985EC3905E1 /* Pods-DZLayoutTable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DZLayoutTable.modulemap"; sourceTree = "<group>"; };
-		FB17206B5AFC7C2784B5D69DD151D52E /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
-		FBD74B13D516BA1481938EFC7A4BA743 /* DZObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DZObject.m; sourceTree = "<group>"; };
-		FC109E13E0226BA2DA512FB6C2E81667 /* DZLayoutTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DZLayoutTableViewCell.m; sourceTree = "<group>"; };
-		FD42CEFE4FEC91F39AE301C623B27610 /* DZGeometryTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DZGeometryTools.modulemap; sourceTree = "<group>"; };
-		FECEB2CFF3E705D60DCBED1D9A84860B /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		F66B06C5FBD452AF733BB42620467DDC /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		F6B22E20572475880ADEE20A67411627 /* DZGrowImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DZGrowImageView.h; path = Pod/Classes/DZGrowImageView.h; sourceTree = "<group>"; };
+		F6F103BC3F64055FCD645DBFB9849D7B /* DZGeometryTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DZGeometryTools-umbrella.h"; sourceTree = "<group>"; };
+		F8CECE537A764DE6FB3EA4F4422A6118 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		FE133CF9A1D1E17548F525794008D28C /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		FE36248B5A646174574DE7571537DF71 /* DZTableDataSync.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DZTableDataSync.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0ED57676E289DCF0AEEAADD40A642071 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5AA5DF8EF1DBFEE8E7B3BFDC41688882 /* Foundation.framework in Frameworks */,
-				4DED035BFDFCBD7363A981B38173076D /* XCTest.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		14859CCCC2E6E4875CC4AA1F23E3D367 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BF98ED7B1CBA71399B414ABF8262B0EE /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		21F7DE10035EC98CCC43DBCE5C5DD733 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2E53AB6655C0B50D69A945F77801D629 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		59ED5869DFE156D802B8E79069A9AD00 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7EF5CFEB0A0B0A1D49A817740F407D3D /* DZGeometryTools.framework in Frameworks */,
-				9C77F359F670954197BD372DDE9300ED /* Foundation.framework in Frameworks */,
-				703EAE9660BEAD98A80CAFAA78AC1C98 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		75D5B24A1007D0D280F7966CB53AFE4A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8CA103AE2834DF8E31B3C4237C70C900 /* DZAdjustFrame.framework in Frameworks */,
-				99208105DED14527AF5AD5DB2DE71291 /* Foundation.framework in Frameworks */,
-				B0F96756FA9B0D49008BFA2AEBCBD420 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		926FF44BA16A45D14E4B8731C8D13B1C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E8B003B06A4F6BE0A547C4531C04B9AC /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B593482E86974F5AD9CA65EAA2F466FF /* Frameworks */ = {
+		0DBC451E462795E06DFD164F4EEA2054 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B921C957D393890E996C16BCBE7A9924 /* Frameworks */ = {
+		3B2CA7009DD52DFF8513D2597C8DE7BD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CB77C03C55BC01338973EE63F8FA06C5 /* Frameworks */ = {
+		52B52DF4E6159B5F0BEBFC0BEB4FE0CD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D2FB71FDB5F96CC6E65B76503C0491B /* DZGeometryTools.framework in Frameworks */,
+				767BCEB441C374AEF56C5A255BD7D7FB /* Foundation.framework in Frameworks */,
+				A9581672AAC215E634EBA38B0C40B29D /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91DB3AAC9B4735EE4F4C1470F7592CDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B92F74794360CEB78733FD48C7D5EA4F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96317938B7BBB0DE5B6C6F27B4A6333F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D549E01DA1D5104335CCEABFF870005 /* Foundation.framework in Frameworks */,
+				CF9DB2096C715EA61E263021EE406DB1 /* QuartzCore.framework in Frameworks */,
+				28F2071FFF5C5B0E9DEB6C3FE43A30CC /* UIKit.framework in Frameworks */,
+				AD4D905241DED4AEAD67447088ACB23D /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A579FDDC810C41C13C9DEECA0D110A79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B85426F16450B5E89D2FE86841A32A07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A83576339E2B0BB46ED5D5DFBE63EE3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0AE79E21347FDA17778C436A6CFEAB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E1DDEAF66312F1163B06EFAB8295E7E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAC5367DD2914011D837A5C5651ECEFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79103FBDACA8CCF84920310E7D17F6FF /* DZAdjustFrame.framework in Frameworks */,
+				0746256179286F3C4EE7CF1BE161F077 /* Foundation.framework in Frameworks */,
+				F83DF4ACB972FE417577BF77334CC59B /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0C0360089EB38CCDE6BD1A13CFD49131 /* Support Files */ = {
+		0ADF0DBB16539D85342FA7C4230CAF2A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				13FAC09C8C7B044E12A10F2D8DBCFAA5 /* DZAdjustFrame.modulemap */,
-				F374DB485E02BE3500C934233C0BE42F /* DZAdjustFrame.xcconfig */,
-				7301403B07FF9585A1FF1A1FB37B6969 /* DZAdjustFrame-Private.xcconfig */,
-				2BB088964DF2C70C13FF7CDECCB167A6 /* DZAdjustFrame-dummy.m */,
-				A8D6DCE96EA6B9C108C25C0EA78A173E /* DZAdjustFrame-prefix.pch */,
-				28B0E92051892E2804998E689A734E56 /* DZAdjustFrame-umbrella.h */,
-				ACB3991A8F7879FF4D719F01896BBA32 /* Info.plist */,
+				7C1DFD70E77036F306B60B8DDC0D6F6C /* DZGeometryTools.modulemap */,
+				5315DFEF517788B7A35306CA00658E1A /* DZGeometryTools.xcconfig */,
+				3C5FB862198DBE5DC378705C881112FE /* DZGeometryTools-dummy.m */,
+				DD39FF79F1744729246D2D3C2E2E19D4 /* DZGeometryTools-prefix.pch */,
+				F6F103BC3F64055FCD645DBFB9849D7B /* DZGeometryTools-umbrella.h */,
+				471DFB02A6747B3C6643C8C0E934002A /* Info.plist */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/DZAdjustFrame";
+			path = "../Target Support Files/DZGeometryTools";
 			sourceTree = "<group>";
 		};
-		257571E3FD13BADA76004614CBEBF77E /* Core */ = {
+		2A6B2059D50B5DFC630A469084AF6D22 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				FB17206B5AFC7C2784B5D69DD151D52E /* FBSnapshotTestCase.h */,
-				D268F30E148DAFD03C89B8B5B1C26CE1 /* FBSnapshotTestCase.m */,
-				FECEB2CFF3E705D60DCBED1D9A84860B /* FBSnapshotTestCasePlatform.h */,
-				80285F79A36AF4BA555D817A84A726E8 /* FBSnapshotTestCasePlatform.m */,
-				0C3CB4C305566AAC78691B64B4AEDD29 /* FBSnapshotTestController.h */,
-				ACECAAC32464AA28589E8BBF5DF88C5C /* FBSnapshotTestController.m */,
-				BD64947B7E15880F337914E63BF2D76E /* UIImage+Compare.h */,
-				AA6DA6C71942F1776E8318F9994884E1 /* UIImage+Compare.m */,
-				AA17D4E9B97B2F51C4FDDA55C5855F1A /* UIImage+Diff.h */,
-				6373EEC5731A05FDE92BDEA082A1A4DB /* UIImage+Diff.m */,
-				4A9CCD5615D6459AD8BF1A1D3F84A992 /* UIImage+Snapshot.h */,
-				8D929333E127563EE0591464D16311F7 /* UIImage+Snapshot.m */,
+				648844008C513DD8B1A1BC8C77587A07 /* DZLayout.h */,
+				C61E2F3825817ED3306840D8A5EA31FB /* DZLayout.m */,
+				DB8C04BCFC4AFB314787F634C9360D6E /* DZLayoutTableViewCell.h */,
+				751D43CD620687EE21353B2A0A304B47 /* DZLayoutTableViewCell.m */,
+				2DC023BB619E8AAD48372609F6FFCF23 /* DZLayoutTableViewController.h */,
+				BFB74302AD071AE0058A8C8610F63055 /* DZLayoutTableViewController.m */,
+				707F3085DF9F544AB74C17F923029F30 /* DZSectionDataController.h */,
+				DC7B9E6239F5B93F4CCDC86CD1ECD78C /* DZSectionDataController.m */,
+				FE36248B5A646174574DE7571537DF71 /* DZTableDataSync.h */,
+				3A0858AF435CF73AD47E1631C5BC7F19 /* DZTableDataSync.m */,
 			);
-			name = Core;
+			path = Classes;
 			sourceTree = "<group>";
 		};
-		30FBF24673B6E43C6139847B78213BE4 /* Frameworks */ = {
+		414FA9723AFE6EBB54085E8062264685 /* DZAdjustFrame */ = {
 			isa = PBXGroup;
 			children = (
-				6C3DFB39E29E253B11747D272C131793 /* DZAdjustFrame.framework */,
-				32085F5379F69E0001ECB25FC2E3A9CF /* DZGeometryTools.framework */,
-				C14C654FDF2F94AD765B9F0CC3519470 /* iOS */,
+				DF0ACE0D8802A767ED5ADB38FA827CD3 /* AdjustFrame.h */,
+				448C60C55A8B7296CF1FF8F594860C3A /* AdjustFrame.m */,
+				001073B86D3158CF1DC03FB1F3CF0631 /* DZAdjustTableView.h */,
+				9327F1F44EF698AEBA07E0384FCA9A8D /* DZAdjustTableView.m */,
+				669492E93B7117648A8F252A856D7058 /* DZAdjustTableViewController.h */,
+				7E23987BBE93B1B748A6CC6C72F8B8AE /* DZAdjustTableViewController.m */,
+				F6B22E20572475880ADEE20A67411627 /* DZGrowImageView.h */,
+				77D3956F0F0ECB425487D1D1D3656611 /* DZGrowImageView.m */,
+				D8ED0670F37E666604252C73B904426E /* DZGrowLabel.h */,
+				44E042FCFB415DFDB2F51CA61C0ECB01 /* DZGrowLabel.m */,
+				608DD1449300C2D6DD04E33E5872BEF0 /* DZGrowTextView.h */,
+				DFFD42FB24AE680D2DFC79725BF3B1DA /* DZGrowTextView.m */,
+				6F75A728F09B8B0E657FEE2B26FF40FF /* Support Files */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		36756146F2F240878EA63DC9EF900ABB /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				CE6DBE99E671C7984A7C0B9AF4F5F51D /* Classes */,
-			);
-			path = Pod;
+			path = DZAdjustFrame;
 			sourceTree = "<group>";
 		};
 		47E965F4EE68133166B9298B2BC5CC63 /* Pods-DZLayoutTable */ = {
@@ -407,12 +405,12 @@
 				F51F544E0726A5CDC63A3985EC3905E1 /* Pods-DZLayoutTable.modulemap */,
 				09C7F319D748D3394777EDD613C4423A /* Pods-DZLayoutTable-acknowledgements.markdown */,
 				3C88D2F18022901A9AC2745233CC1398 /* Pods-DZLayoutTable-acknowledgements.plist */,
-				3EF3C899FB77BC4E417708151DEF8CEC /* Pods-DZLayoutTable-dummy.m */,
+				8A8704DE817B01185CC223B6A760223B /* Pods-DZLayoutTable-dummy.m */,
 				F006CF421407E0BB8FCBAF6952F2C2D1 /* Pods-DZLayoutTable-frameworks.sh */,
 				8AEE5A19687A4AAE0921B144B05CA6CC /* Pods-DZLayoutTable-resources.sh */,
-				9E73DCDFB91DD1CFE821DF72CD543FA1 /* Pods-DZLayoutTable-umbrella.h */,
-				B0B27342FBB0CDC5111F9632C63B585E /* Pods-DZLayoutTable.debug.xcconfig */,
-				32066E6504F1851390C93228AA8B5711 /* Pods-DZLayoutTable.release.xcconfig */,
+				DBD217514AD4F57A2F38380C43776E39 /* Pods-DZLayoutTable-umbrella.h */,
+				53D14A435FB72DADE08ED2606BEE1D52 /* Pods-DZLayoutTable.debug.xcconfig */,
+				2B0F572BDDE75BA89B6BA9CE772668F4 /* Pods-DZLayoutTable.release.xcconfig */,
 			);
 			name = "Pods-DZLayoutTable";
 			path = "Target Support Files/Pods-DZLayoutTable";
@@ -421,26 +419,11 @@
 		49EBBC7B91709D808C489DC35FE5F30E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				86F923742594847EB97F6D1F91831A67 /* DZAdjustFrame */,
-				77F85F61C9BC24E1E706DA6E0E398F9A /* DZGeometryTools */,
-				E2167D2D618C73376DDCC984A54C2FDE /* FBSnapshotTestCase */,
+				414FA9723AFE6EBB54085E8062264685 /* DZAdjustFrame */,
+				9F310510B3E283B572076961356E9349 /* DZGeometryTools */,
+				8BB9BD3BF528DE2A5C19E2D6FF6853C0 /* FBSnapshotTestCase */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		4CD1703DAEFB9E828189EFDCAE9AAA0B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				FD42CEFE4FEC91F39AE301C623B27610 /* DZGeometryTools.modulemap */,
-				38C691DBA64DF76D4B0B4DF983D979DB /* DZGeometryTools.xcconfig */,
-				62393B9608B3FDD65A0B01A158F91C5E /* DZGeometryTools-Private.xcconfig */,
-				C679B5D63FB4B11849EBF16204BA7B4B /* DZGeometryTools-dummy.m */,
-				435273A9403EF80E63FBCCB4CF0A5D11 /* DZGeometryTools-prefix.pch */,
-				3F84C67E2C4A505B42B805431D60E4AD /* DZGeometryTools-umbrella.h */,
-				1D4F7D1E20649C29CBCCB8CB04A43269 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/DZGeometryTools";
 			sourceTree = "<group>";
 		};
 		4CF5C7D62CC2AAF17796FC283A2C29A8 /* Pods-Tests */ = {
@@ -450,44 +433,80 @@
 				A375D35A3603114962C32C310DDB29C4 /* Pods-Tests.modulemap */,
 				0DE0F358AC327F4D7FAF457B110A062D /* Pods-Tests-acknowledgements.markdown */,
 				342093C0EF1DC541F6A6DE8B35B2278C /* Pods-Tests-acknowledgements.plist */,
-				39B2A1CB6683F479FED97822DAA3F3A2 /* Pods-Tests-dummy.m */,
+				9C7ACAD2A84843209B02574981C44778 /* Pods-Tests-dummy.m */,
 				EB83EC464D46315952212B4DCDF15AF6 /* Pods-Tests-frameworks.sh */,
 				60487DA279B1B26DE704FCD06E9B5CCC /* Pods-Tests-resources.sh */,
-				9497634A6CD3BE1C7FF427D79F29C491 /* Pods-Tests-umbrella.h */,
-				C589458A4A6ED33619A59BBE690625EC /* Pods-Tests.debug.xcconfig */,
-				E3077FA70E5625DF5557492963C00B0C /* Pods-Tests.release.xcconfig */,
+				9D6AEE85DA3880889959163CE8832208 /* Pods-Tests-umbrella.h */,
+				D028F360962DE793BAE1D09E37BF6FCC /* Pods-Tests.debug.xcconfig */,
+				EFFB39ADAE00C24F672CDAC027DF74D7 /* Pods-Tests.release.xcconfig */,
 			);
 			name = "Pods-Tests";
 			path = "Target Support Files/Pods-Tests";
 			sourceTree = "<group>";
 		};
-		75168D52F6E56B812F4D513BD0785450 /* Support Files */ = {
+		55DCF2658258A7ABE8728F072B4A3970 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				57E4558107E59C3EF367AFE8764CB849 /* FBSnapshotTestCase.modulemap */,
-				5E137535E85F8294EBE6312C6FC05048 /* FBSnapshotTestCase.xcconfig */,
-				BB7414F12871B2846F197216CAD7ED5E /* FBSnapshotTestCase-Private.xcconfig */,
-				12FB4949CA54F7042310556C0CDA7F22 /* FBSnapshotTestCase-dummy.m */,
-				20A5111A46D18992B912F5F22F4C85F8 /* FBSnapshotTestCase-prefix.pch */,
-				CD391127D68A7A9A405565B05532FC04 /* FBSnapshotTestCase-umbrella.h */,
-				9424CF4505E784517EB0E361398A0554 /* Info.plist */,
+				796FE0EF153E62316E7E2AF63A832C35 /* DZAdjustFrame.framework */,
+				C39E90838A7B3D5F2E83597AB791D08C /* DZGeometryTools.framework */,
+				E8A156C787E0202B1401D6FAA1F2B7D1 /* iOS */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/FBSnapshotTestCase";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		77F85F61C9BC24E1E706DA6E0E398F9A /* DZGeometryTools */ = {
+		60C3A69E5EDF29000C014412CB950C35 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2EEB178CB27F937AAFB8D6765BBF6398 /* DZDevices.h */,
-				4B3DDCEF992997D1B6184344A939AE7B /* DZDevices.m */,
-				B422B602368B42258581DA06B7E9F31D /* DZGeometryTools.h */,
-				438A59A3A6DE50815F29450AD9A78DD4 /* DZGeometryTools.m */,
-				4732F45AE7FA7F24C5455B2A11F57395 /* UIDeviceHardware.h */,
-				DAED8E92CAAC6C9D68AA9D02A17C26E3 /* UIDeviceHardware.m */,
-				4CD1703DAEFB9E828189EFDCAE9AAA0B /* Support Files */,
+				C75404B502F4F027586E049480D9CC7D /* DZLayoutTable.modulemap */,
+				5BE6F151F9202D85A8B842A5913F4A2C /* DZLayoutTable.xcconfig */,
+				8AEB2AD05A5C9B19EFCE5D80D288A1C5 /* DZLayoutTable-dummy.m */,
+				3CA3B832CB8CBCDC0F204692FE8DDD23 /* DZLayoutTable-prefix.pch */,
+				513FF162E0134D4D136792C42111F3C7 /* DZLayoutTable-umbrella.h */,
+				B47302C0B638602AEFAAEBAD7FF1D91E /* Info.plist */,
 			);
-			path = DZGeometryTools;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DZLayoutTable";
+			sourceTree = "<group>";
+		};
+		6EA7F501C96E89097592CBEB8A868B28 /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				9A980DB1A5EC7AE04437DB4D37D9F936 /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		6F75A728F09B8B0E657FEE2B26FF40FF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				86153D09153F2A71F303FF2778ACEB20 /* DZAdjustFrame.modulemap */,
+				EAE1A9BCA332293917049FDAF816800C /* DZAdjustFrame.xcconfig */,
+				CB358A798152FE1C6CB5E5CE1AAD2586 /* DZAdjustFrame-dummy.m */,
+				3D6AD20E7561CFEF13BAD8A0E5CE70D2 /* DZAdjustFrame-prefix.pch */,
+				3E2AD1A86AEBCDFC7059ED0D4AFC13AD /* DZAdjustFrame-umbrella.h */,
+				CB9F6F172FCF27FEEF7EFA9288E35116 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DZAdjustFrame";
+			sourceTree = "<group>";
+		};
+		6FF238E6D81F892C345CD60ABBD7C1A2 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E6F427765E03125DC6FC47B3B2426C74 /* FBSnapshotTestCase.h */,
+				3A6166CE7C2DDF36749B5F3CE87EC25C /* FBSnapshotTestCase.m */,
+				84E4C69E00EBB57EDFB27645EA9AFE7C /* FBSnapshotTestCasePlatform.h */,
+				EC256F6D21C3B1654676438888DEC736 /* FBSnapshotTestCasePlatform.m */,
+				F66B06C5FBD452AF733BB42620467DDC /* FBSnapshotTestController.h */,
+				2F5D197E1484887ADBB52F40BC5E9015 /* FBSnapshotTestController.m */,
+				54525E6DC29C391DF46EF86472A7901B /* UIImage+Compare.h */,
+				8F3D0023ACB2FE4F889BED8AFF98CB0E /* UIImage+Compare.m */,
+				ACBC1BBED1DB5EE04326FCDB796B4FB5 /* UIImage+Diff.h */,
+				FE133CF9A1D1E17548F525794008D28C /* UIImage+Diff.m */,
+				7F28F386572927CAE460DB771F628459 /* UIImage+Snapshot.h */,
+				1574840CC44FB42D91958A5FDB79BEB0 /* UIImage+Snapshot.m */,
+			);
+			name = Core;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -495,55 +514,72 @@
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				DA76ABD7D9F951C0A07796B15928F187 /* Development Pods */,
-				30FBF24673B6E43C6139847B78213BE4 /* Frameworks */,
+				55DCF2658258A7ABE8728F072B4A3970 /* Frameworks */,
 				49EBBC7B91709D808C489DC35FE5F30E /* Pods */,
-				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				CA033E8BF3512B475A6B623CA740E313 /* Products */,
 				CD1D78EEBA88EA518FCB1F1C7407CB5B /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		86F923742594847EB97F6D1F91831A67 /* DZAdjustFrame */ = {
+		8BB9BD3BF528DE2A5C19E2D6FF6853C0 /* FBSnapshotTestCase */ = {
 			isa = PBXGroup;
 			children = (
-				3F229FDEACD6B90AAAC7158462ED43F1 /* AdjustFrame.h */,
-				6B0A891A419B9031FF3AAFCFDAD7DB98 /* AdjustFrame.m */,
-				EF1240DB2B8FB98C633AF001C729C8A5 /* DZAdjustTableView.h */,
-				0AD60EED705C6EDA8C4380592E331CDE /* DZAdjustTableView.m */,
-				97FD7FE3CE7F269466B0F9600583D9C8 /* DZAdjustTableViewController.h */,
-				2476789ED107BB2D5AF7937C39392B5D /* DZAdjustTableViewController.m */,
-				1D4BC78075A448C201A79FF1EC5D7F47 /* DZGrowImageView.h */,
-				C33F736384A2EC3AFF1146EF1D4AEB99 /* DZGrowImageView.m */,
-				923FC809CA3CBEE0FF8563F636889C30 /* DZGrowLabel.h */,
-				B77595C8CBF9B1DC987F7047C7C966E1 /* DZGrowLabel.m */,
-				7AE7212925BDE75047D767268523CBE8 /* DZGrowTextView.h */,
-				06FA26E4B0B9A5B2EB9D4A4BC853F328 /* DZGrowTextView.m */,
-				0C0360089EB38CCDE6BD1A13CFD49131 /* Support Files */,
+				6FF238E6D81F892C345CD60ABBD7C1A2 /* Core */,
+				B66AE2C0C31F581B14D3D6FB1ACFC5D9 /* Support Files */,
+				6EA7F501C96E89097592CBEB8A868B28 /* SwiftSupport */,
 			);
-			path = DZAdjustFrame;
+			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
-		C14C654FDF2F94AD765B9F0CC3519470 /* iOS */ = {
+		9F310510B3E283B572076961356E9349 /* DZGeometryTools */ = {
 			isa = PBXGroup;
 			children = (
-				F01AE7851846753D80AC1C8CB9C4C7C5 /* Foundation.framework */,
-				384C540FC418DBCD49423348A1DE1494 /* UIKit.framework */,
-				BDF5AA5FDA82C7FD2802A36BB1F83485 /* XCTest.framework */,
+				068CDC93BC2213CAC1841A08CB59CEA9 /* DZDevices.h */,
+				52FABCCB17438EDAB5779579811A2471 /* DZDevices.m */,
+				45C96C682E6C3EF3373439E74F890B54 /* DZGeometryTools.h */,
+				68523C23EED703218820C15219307BCC /* DZGeometryTools.m */,
+				B463D228422B1730ED6B13146B190E20 /* UIDeviceHardware.h */,
+				553563086B329AED8A89CA4D21A391D5 /* UIDeviceHardware.m */,
+				0ADF0DBB16539D85342FA7C4230CAF2A /* Support Files */,
 			);
-			name = iOS;
+			path = DZGeometryTools;
 			sourceTree = "<group>";
 		};
-		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+		A784373014F4F1F1FCACFEB97F4FD1B8 /* DZLayoutTable */ = {
 			isa = PBXGroup;
 			children = (
-				58511A652526FBEBC0E1AD66B254A490 /* DZAdjustFrame.bundle */,
-				D4979450F52A95EE939CF43653EFE1A8 /* DZAdjustFrame.framework */,
-				E17E2C71B364502A377EEA3BF1892181 /* DZGeometryTools.bundle */,
-				9B2DD4E79C08E6F04F873E7714D77518 /* DZGeometryTools.framework */,
-				3CF10FCD54315AD9A272D2B7BAD861C5 /* DZLayoutTable.bundle */,
-				AA6BCF878110FA7E0571445C5719875A /* DZLayoutTable.framework */,
-				7B855488BCB23154B3958B99B785D1A2 /* FBSnapshotTestCase.framework */,
-				5997551B1B3AFBC19CCC7B1EE42B2DEB /* Pods_DZLayoutTable.framework */,
-				4BE6C5832487A349EA9E7DBB5247AFB7 /* Pods_Tests.framework */,
+				DEF28FF8E8B347BF495D4DA214B2CDA8 /* Pod */,
+				60C3A69E5EDF29000C014412CB950C35 /* Support Files */,
+			);
+			name = DZLayoutTable;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B66AE2C0C31F581B14D3D6FB1ACFC5D9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4C27EC4E31F4F91156334922277499C /* FBSnapshotTestCase.modulemap */,
+				C5824588B8CA41DC3749515D8FFF5C67 /* FBSnapshotTestCase.xcconfig */,
+				91640535636DD6FD8F3323A28FF19735 /* FBSnapshotTestCase-dummy.m */,
+				44072DD373674A32B9683EC4891ED13E /* FBSnapshotTestCase-prefix.pch */,
+				25C590CAC089BD432C175AE4F5DED9F4 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		CA033E8BF3512B475A6B623CA740E313 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE199ADEF48A47A794C164C3BED83E5B /* DZAdjustFrame.bundle */,
+				81D357E4035A47EDB12BBB9F67A0459C /* DZAdjustFrame.framework */,
+				432D92899F40DCC11D05F087537DEAE6 /* DZGeometryTools.bundle */,
+				06EE364D868B52351B6C33D5F0AF8445 /* DZGeometryTools.framework */,
+				2E37AAAC0AF1F82AF3864A5E94E05E09 /* DZLayoutTable.bundle */,
+				5DD57D16B65CCFDA07E0A63904F5E093 /* DZLayoutTable.framework */,
+				AB388308AD4202D3A51835106C44FBDC /* FBSnapshotTestCase.framework */,
+				B5288A5E31492EDCCCB9739C4DD183CD /* Pods_DZLayoutTable.framework */,
+				51CB48E1261B7007E1E1AB71D1271E04 /* Pods_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -557,306 +593,192 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		CE6DBE99E671C7984A7C0B9AF4F5F51D /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				75ABFE708C118413793166C3CF4C58A8 /* DZLayout.h */,
-				3F6EFD59BD9939D5398F1C41CF48D3ED /* DZLayout.m */,
-				C773A23AC83F519150A954BE2745C7A5 /* DZLayoutTableViewCell.h */,
-				FC109E13E0226BA2DA512FB6C2E81667 /* DZLayoutTableViewCell.m */,
-				D3269BC61FE66284FEB2A4CBB2B448C1 /* DZLayoutTableViewController.h */,
-				48B228E21D0A51197FFDC3C761B5C0A0 /* DZLayoutTableViewController.m */,
-				B110325A1DE0AB67D5C734184954DB02 /* DZObject.h */,
-				FBD74B13D516BA1481938EFC7A4BA743 /* DZObject.m */,
-				2C7E8DA289216840D5BA26ABBE988433 /* DZTableDataSync.h */,
-				4353C1D7DF286789623BD6FFEBFA5D45 /* DZTableDataSync.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		D3F20C275698D355203BBC781DDBFEFA /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6BB502D7A4998FFC1A23523F31A917DB /* DZLayoutTable.modulemap */,
-				C2E3CF7E6EB2CABD4F68F509C8A100E2 /* DZLayoutTable.xcconfig */,
-				D85AF0CF4281FAADBF8551C1B8BEEB79 /* DZLayoutTable-Private.xcconfig */,
-				19246BF0414A0CA36D412E2C053A6E42 /* DZLayoutTable-dummy.m */,
-				97904A07533B5626DDFE1132FDFB0939 /* DZLayoutTable-prefix.pch */,
-				0A6E5D9111531440B8DC2181E6775D1B /* DZLayoutTable-umbrella.h */,
-				0BBB0752A9092602E0F8BA71541908E5 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/DZLayoutTable";
-			sourceTree = "<group>";
-		};
 		DA76ABD7D9F951C0A07796B15928F187 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E745DF44E79F09B92AF102AEDE2A077C /* DZLayoutTable */,
+				A784373014F4F1F1FCACFEB97F4FD1B8 /* DZLayoutTable */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		E2167D2D618C73376DDCC984A54C2FDE /* FBSnapshotTestCase */ = {
+		DEF28FF8E8B347BF495D4DA214B2CDA8 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				257571E3FD13BADA76004614CBEBF77E /* Core */,
-				75168D52F6E56B812F4D513BD0785450 /* Support Files */,
-				E7213B3F4D5613B76C5D3454ECBB4F03 /* SwiftSupport */,
+				2A6B2059D50B5DFC630A469084AF6D22 /* Classes */,
 			);
-			path = FBSnapshotTestCase;
+			path = Pod;
 			sourceTree = "<group>";
 		};
-		E7213B3F4D5613B76C5D3454ECBB4F03 /* SwiftSupport */ = {
+		E8A156C787E0202B1401D6FAA1F2B7D1 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				695C130FAFB4516599FBC16BDEDAD3EF /* SwiftSupport.swift */,
+				90857C2665A69C68C1A9BE9D82611745 /* Foundation.framework */,
+				F8CECE537A764DE6FB3EA4F4422A6118 /* QuartzCore.framework */,
+				4343608DFE75CA7F6F1AEAC04EF6F86E /* UIKit.framework */,
+				BE83E214998742B7E5917A659BECCFFF /* XCTest.framework */,
 			);
-			name = SwiftSupport;
-			sourceTree = "<group>";
-		};
-		E745DF44E79F09B92AF102AEDE2A077C /* DZLayoutTable */ = {
-			isa = PBXGroup;
-			children = (
-				36756146F2F240878EA63DC9EF900ABB /* Pod */,
-				D3F20C275698D355203BBC781DDBFEFA /* Support Files */,
-			);
-			name = DZLayoutTable;
-			path = ../..;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		405B1C0E89792AC0E92BA49010FCFFAA /* Headers */ = {
+		6A3BB9E32BDAD9EDB00EDFE657BDB001 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A65565A9C275CFA2B9D7AB891BBE47EF /* DZLayout.h in Headers */,
-				BA22172FF0C8CE517DE508B907EDA254 /* DZLayoutTable-umbrella.h in Headers */,
-				0212FA713BA5FF795B5CEEFBC142106C /* DZLayoutTableViewCell.h in Headers */,
-				A15C9F01ACA61F744CD4C8F90DB9CCDC /* DZLayoutTableViewController.h in Headers */,
-				FDB8D8304419EFAC9DC2BDCC8918D25D /* DZObject.h in Headers */,
-				D4D14CB5321786B03CB7CA759F49DB0F /* DZTableDataSync.h in Headers */,
+				821A26883ED14BDCD7EBADD37D671D17 /* FBSnapshotTestCase.h in Headers */,
+				41D8739E2720D3535592391C25507158 /* FBSnapshotTestCasePlatform.h in Headers */,
+				7BEF20E09F0E864478905311672F91AB /* FBSnapshotTestController.h in Headers */,
+				1F118728B3D74089480152A6B660EA9A /* UIImage+Compare.h in Headers */,
+				52B0263F90696E7FD87CB146D5C5E2C1 /* UIImage+Diff.h in Headers */,
+				723FDDFD804188090511DEFA8309A06B /* UIImage+Snapshot.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6B29936DB2B06103437B6D4259A77F3B /* Headers */ = {
+		90F38B52226C51DF44B879C34A4F9A7D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				312271A7A9A52577D9EFB10A4E847694 /* Pods-DZLayoutTable-umbrella.h in Headers */,
+				7A961179A6473A2D62D855B1ED8409AE /* AdjustFrame.h in Headers */,
+				159AFA18FE31F5BE85C691351142CDAB /* DZAdjustFrame-umbrella.h in Headers */,
+				7DF89C003C727B4B3EF5F3F77CA0B156 /* DZAdjustTableView.h in Headers */,
+				028ECBE8683D2F9891DD349999774130 /* DZAdjustTableViewController.h in Headers */,
+				6F84010DFF9F8DE335AF5302B01814AF /* DZGrowImageView.h in Headers */,
+				0973A38BC5AF273F97389776B3D57424 /* DZGrowLabel.h in Headers */,
+				19E593CDBF02308988BD5E6B1064FAFD /* DZGrowTextView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		98FBBC03EF9048F0D04539048B3D9171 /* Headers */ = {
+		AEA045037D3567978DF6E8FD9E313090 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A00BDD56E5B209AE5107ED9081E49E85 /* DZDevices.h in Headers */,
-				DCE3D9B036191FB7208DFE9876E7ED1C /* DZGeometryTools-umbrella.h in Headers */,
-				BF7F72496FD5DEEED23ACA5F65F80187 /* DZGeometryTools.h in Headers */,
-				B9F2C321CFA2D254ACDEBF3AA2E20DC2 /* UIDeviceHardware.h in Headers */,
+				9FDD960E402B6285BC81D3AEEAB8ECBE /* DZLayout.h in Headers */,
+				8F8A5E8CBFF971B338A837BE88B52466 /* DZLayoutTable-umbrella.h in Headers */,
+				ACCF13200573F8E4971DF5622DEA39E5 /* DZLayoutTableViewCell.h in Headers */,
+				8BB7296BF6B937409509E0A2FCCD9694 /* DZLayoutTableViewController.h in Headers */,
+				B4B2EC68F35CF972A7BF386E62B8C64B /* DZSectionDataController.h in Headers */,
+				6881644EF00AA687010B3995530BBC1C /* DZTableDataSync.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9B0CF22DF8F77000F01418F570E504F1 /* Headers */ = {
+		B73F3270B68EB0527D6C4A983C210904 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				700C04DC2260F37FAB8FB5A8F845826B /* AdjustFrame.h in Headers */,
-				7A236562FD54BE09785652E66D597C6B /* DZAdjustFrame-umbrella.h in Headers */,
-				EDBF095328D8359757BF7FD1FDC481E2 /* DZAdjustTableView.h in Headers */,
-				A0CBC3A7530B060FB20CC4DF8B974762 /* DZAdjustTableViewController.h in Headers */,
-				8BC28DEC847E8D5BD5C396D4238A9555 /* DZGrowImageView.h in Headers */,
-				77A7AF9A30C72576486F56F5A7B1808E /* DZGrowLabel.h in Headers */,
-				D5843F8A75D0AA96171E160463D03746 /* DZGrowTextView.h in Headers */,
+				DA480737A83FE56F86E8FD3FF271B345 /* DZDevices.h in Headers */,
+				8A6053B817F0E6FD424C70E5A589CF83 /* DZGeometryTools-umbrella.h in Headers */,
+				5B1F4702CFD552CE00435AB6AB10F1E7 /* DZGeometryTools.h in Headers */,
+				CCA00856FF357381221B31F60FC50FC7 /* UIDeviceHardware.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A3F7419A7835CB6B62022573EAF80DAB /* Headers */ = {
+		BDDDA1D1F036316377443B13C30EE010 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F809442A2217BB0E61F9D19F8D1F3A2B /* Pods-Tests-umbrella.h in Headers */,
+				16E926D7187607B170A205DAE580BD37 /* Pods-Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CC2E9922851D4D5086325699DACD81FE /* Headers */ = {
+		D11B878AC39D705C22B7062D97DB2053 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBB395CE5830AAB1616013CBBF9E9FC4 /* FBSnapshotTestCase-umbrella.h in Headers */,
-				DFCC93BDF13D1FD91AE3B86009B9574D /* FBSnapshotTestCase.h in Headers */,
-				F21BD8D46E5A20071ED22E1A8C992D2F /* FBSnapshotTestCasePlatform.h in Headers */,
-				C79AC94AC65F3657090D010F3ACFC441 /* FBSnapshotTestController.h in Headers */,
-				65C5BEE2DF56E27C4E5CC30754DC5C95 /* UIImage+Compare.h in Headers */,
-				4F5F45FA7DD97F7571688E1E9926A65C /* UIImage+Diff.h in Headers */,
-				624187C10F6F0EB06E325B28B3C5417C /* UIImage+Snapshot.h in Headers */,
+				7953E45807E26652482397320BFC0C80 /* Pods-DZLayoutTable-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		41BFBC1CCEE8317507722C984524C5F4 /* FBSnapshotTestCase */ = {
+		014756CE66A0625A61CE7E77F60A5D62 /* DZLayoutTable */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C3FB837ABEAB37B96651E48ACD9CA545 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildConfigurationList = A4E23509B50548BF7EB8E3D667BF6375 /* Build configuration list for PBXNativeTarget "DZLayoutTable" */;
 			buildPhases = (
-				F3A3B2CA42569B6BB8A9AFE7E64280EE /* Sources */,
-				0ED57676E289DCF0AEEAADD40A642071 /* Frameworks */,
-				CC2E9922851D4D5086325699DACD81FE /* Headers */,
+				D92F74196AE01A71099635833AA5F689 /* Sources */,
+				DAC5367DD2914011D837A5C5651ECEFE /* Frameworks */,
+				2A2BBDE3A9F8A92A3DD879B32E2D3389 /* Resources */,
+				AEA045037D3567978DF6E8FD9E313090 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = FBSnapshotTestCase;
-			productName = FBSnapshotTestCase;
-			productReference = 7B855488BCB23154B3958B99B785D1A2 /* FBSnapshotTestCase.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		7394F9768A0A7828DB546BE32A2738B7 /* Pods-Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 41F7BB792688860B421BFC2B1632B9DB /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
-			buildPhases = (
-				848F566CFCA4985E7FD956AFFCCCFD66 /* Sources */,
-				14859CCCC2E6E4875CC4AA1F23E3D367 /* Frameworks */,
-				A3F7419A7835CB6B62022573EAF80DAB /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0C241B7D017748E212259AD4ECE63389 /* PBXTargetDependency */,
-				F8B057E8FAC5437D51B08CB64E93C2C7 /* PBXTargetDependency */,
-				D1457325338ED05EAAC3A8CA4156C35A /* PBXTargetDependency */,
-				453745037EC979A759FC158171FB4652 /* PBXTargetDependency */,
-			);
-			name = "Pods-Tests";
-			productName = "Pods-Tests";
-			productReference = 4BE6C5832487A349EA9E7DBB5247AFB7 /* Pods_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		AB9AEF8A1B861BCC8517BF227853670E /* DZAdjustFrame */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BA45C29D32B6583004884D1B745459B7 /* Build configuration list for PBXNativeTarget "DZAdjustFrame" */;
-			buildPhases = (
-				A5C1A94A2D3AD2ABF5743FE1DED2ED25 /* Sources */,
-				59ED5869DFE156D802B8E79069A9AD00 /* Frameworks */,
-				9B018E62B43EC90EE2182F1BF8E66C78 /* Resources */,
-				9B0CF22DF8F77000F01418F570E504F1 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				71DA33788A0E7E8F7DF22968B936ABA6 /* PBXTargetDependency */,
-				C3B4771CD35B99BD66B761BDAACD78B8 /* PBXTargetDependency */,
-			);
-			name = DZAdjustFrame;
-			productName = DZAdjustFrame;
-			productReference = D4979450F52A95EE939CF43653EFE1A8 /* DZAdjustFrame.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		B29B8CDE4B13A4E656FB13B6866C7C85 /* Pods-DZLayoutTable */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C863AB01E2FEE874A412B1D421B69061 /* Build configuration list for PBXNativeTarget "Pods-DZLayoutTable" */;
-			buildPhases = (
-				CD1FCC1FF6C7D936FAFC59D20BC10738 /* Sources */,
-				21F7DE10035EC98CCC43DBCE5C5DD733 /* Frameworks */,
-				6B29936DB2B06103437B6D4259A77F3B /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				98011B1423C363C77C0892C96E91721A /* PBXTargetDependency */,
-				6A9FB2A1C790BCE250617365E208B976 /* PBXTargetDependency */,
-				C9407A03AC86249F757E3214EF9667B7 /* PBXTargetDependency */,
-			);
-			name = "Pods-DZLayoutTable";
-			productName = "Pods-DZLayoutTable";
-			productReference = 5997551B1B3AFBC19CCC7B1EE42B2DEB /* Pods_DZLayoutTable.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		B4940C27B03B6CBC2803DEF44F4A7787 /* DZLayoutTable-DZLayoutTable */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8F0A4305EECFD58B071324135325FDEC /* Build configuration list for PBXNativeTarget "DZLayoutTable-DZLayoutTable" */;
-			buildPhases = (
-				19444B2B0858ABB7B5746B178AB6C815 /* Sources */,
-				CB77C03C55BC01338973EE63F8FA06C5 /* Frameworks */,
-				49A1F4BA7B65E81BE0B125B666A7CA83 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "DZLayoutTable-DZLayoutTable";
-			productName = "DZLayoutTable-DZLayoutTable";
-			productReference = 3CF10FCD54315AD9A272D2B7BAD861C5 /* DZLayoutTable.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
-		B6D637B8990603A39B414B5B70291CB2 /* DZGeometryTools */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5744335E394367343E5969ED23FCF5CD /* Build configuration list for PBXNativeTarget "DZGeometryTools" */;
-			buildPhases = (
-				AD74BBD3191CFD06C20664EBC89EBDC4 /* Sources */,
-				926FF44BA16A45D14E4B8731C8D13B1C /* Frameworks */,
-				EF5747EEA9AA7B7C273800DFA354F339 /* Resources */,
-				98FBBC03EF9048F0D04539048B3D9171 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B1A25D4BAB53D1CB186FA4F967A9A0C2 /* PBXTargetDependency */,
-			);
-			name = DZGeometryTools;
-			productName = DZGeometryTools;
-			productReference = 9B2DD4E79C08E6F04F873E7714D77518 /* DZGeometryTools.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		C48BB5F4329779B16A351909912C17E2 /* DZAdjustFrame-DZAdjustFrame */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 54014FA6546DBFF84543A0677213B803 /* Build configuration list for PBXNativeTarget "DZAdjustFrame-DZAdjustFrame" */;
-			buildPhases = (
-				38A810CD895999AB09797B5B98CE4334 /* Sources */,
-				B593482E86974F5AD9CA65EAA2F466FF /* Frameworks */,
-				39F21D3131AC2038FDA75524F5D251B3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "DZAdjustFrame-DZAdjustFrame";
-			productName = "DZAdjustFrame-DZAdjustFrame";
-			productReference = 58511A652526FBEBC0E1AD66B254A490 /* DZAdjustFrame.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
-		D5A4E36F8D3E012908C2899F8D9186D3 /* DZLayoutTable */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D0837EFE2E174E19C32C3084F8C82BEA /* Build configuration list for PBXNativeTarget "DZLayoutTable" */;
-			buildPhases = (
-				F02DEFEB64C306FF2726D46DF02DA418 /* Sources */,
-				75D5B24A1007D0D280F7966CB53AFE4A /* Frameworks */,
-				AC204E07AC6E342A02E468685BEE9434 /* Resources */,
-				405B1C0E89792AC0E92BA49010FCFFAA /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CF3EF32C97778039B9C264292E31B380 /* PBXTargetDependency */,
-				119C1F1DF6199C3185157A6271D27F34 /* PBXTargetDependency */,
+				99DBA5722EBE9F6CEA30C0786D4CF15B /* PBXTargetDependency */,
+				84B1C5BB116ECE2B7D9DBC17EF5AEE5F /* PBXTargetDependency */,
 			);
 			name = DZLayoutTable;
 			productName = DZLayoutTable;
-			productReference = AA6BCF878110FA7E0571445C5719875A /* DZLayoutTable.framework */;
+			productReference = 5DD57D16B65CCFDA07E0A63904F5E093 /* DZLayoutTable.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F1486931F4A7F62AD367A244510ED9E3 /* DZGeometryTools-DZGeometryTools */ = {
+		1BE19DB19175A3D00427BD1B5E9FAD5A /* DZAdjustFrame */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FE26710B81A768EA9D39D0F31123F699 /* Build configuration list for PBXNativeTarget "DZGeometryTools-DZGeometryTools" */;
+			buildConfigurationList = E3DE0338029DCF223337F34EB8FF7612 /* Build configuration list for PBXNativeTarget "DZAdjustFrame" */;
 			buildPhases = (
-				FFA8FB38A2D36AEE83BF752CE491F390 /* Sources */,
-				B921C957D393890E996C16BCBE7A9924 /* Frameworks */,
-				A19B77CAADBED4101FE04D64B8CC70EA /* Resources */,
+				58CA3DDC93E6F5EF20C6C4F5130537AA /* Sources */,
+				52B52DF4E6159B5F0BEBFC0BEB4FE0CD /* Frameworks */,
+				200D2324CFE1E7D84B5CBA0953A0F5D9 /* Resources */,
+				90F38B52226C51DF44B879C34A4F9A7D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0865B46C2BEF9B7B4C5828E2C4BA2857 /* PBXTargetDependency */,
+				1BBD320404BCE7B40E0FCD1049F479D0 /* PBXTargetDependency */,
+			);
+			name = DZAdjustFrame;
+			productName = DZAdjustFrame;
+			productReference = 81D357E4035A47EDB12BBB9F67A0459C /* DZAdjustFrame.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		680445DABDD737F826CA3736CDDA9E7E /* Pods-DZLayoutTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD5555BE2C7D22C34712CFF59C464334 /* Build configuration list for PBXNativeTarget "Pods-DZLayoutTable" */;
+			buildPhases = (
+				0DA0E7390B343FBA1D3F6DF78E3C268A /* Sources */,
+				B85426F16450B5E89D2FE86841A32A07 /* Frameworks */,
+				D11B878AC39D705C22B7062D97DB2053 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0ACB67180B1BFBBA59D60F294AB07A39 /* PBXTargetDependency */,
+				42C9FCF42B7100AF50DB493992E6B708 /* PBXTargetDependency */,
+				2CEBEC59E4F78DDEBE90DD97B624C352 /* PBXTargetDependency */,
+			);
+			name = "Pods-DZLayoutTable";
+			productName = "Pods-DZLayoutTable";
+			productReference = B5288A5E31492EDCCCB9739C4DD183CD /* Pods_DZLayoutTable.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6FA93A9748FB15EDF612C779115876CD /* DZGeometryTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FD0F92A671F0CC5BD57A58FE32355DA /* Build configuration list for PBXNativeTarget "DZGeometryTools" */;
+			buildPhases = (
+				EED81AD3B46FB4F9EA85E69C08F7BBBE /* Sources */,
+				91DB3AAC9B4735EE4F4C1470F7592CDB /* Frameworks */,
+				A1EE337628A3F9F68F235138F5654577 /* Resources */,
+				B73F3270B68EB0527D6C4A983C210904 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BED5AEBB7696552CE77886A26E795A3 /* PBXTargetDependency */,
+			);
+			name = DZGeometryTools;
+			productName = DZGeometryTools;
+			productReference = 06EE364D868B52351B6C33D5F0AF8445 /* DZGeometryTools.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7ABE2E0D13C9C7228E6B38A9EACDAE1B /* DZGeometryTools-DZGeometryTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42A5FCECCB05BF686630CEB15191C7C5 /* Build configuration list for PBXNativeTarget "DZGeometryTools-DZGeometryTools" */;
+			buildPhases = (
+				0AF816E532FAB79CAA1032B1BCD1E854 /* Sources */,
+				A579FDDC810C41C13C9DEECA0D110A79 /* Frameworks */,
+				2E4E92406690D741B93CE285F71DEBFD /* Resources */,
 			);
 			buildRules = (
 			);
@@ -864,7 +786,79 @@
 			);
 			name = "DZGeometryTools-DZGeometryTools";
 			productName = "DZGeometryTools-DZGeometryTools";
-			productReference = E17E2C71B364502A377EEA3BF1892181 /* DZGeometryTools.bundle */;
+			productReference = 432D92899F40DCC11D05F087537DEAE6 /* DZGeometryTools.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		9C9CA8AE4A6D70EAFFD358AE1328A941 /* DZLayoutTable-DZLayoutTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A08F8CA60A60461EDE370C3FF3F18C1 /* Build configuration list for PBXNativeTarget "DZLayoutTable-DZLayoutTable" */;
+			buildPhases = (
+				57F3191564B21B643C1BA94913C2998A /* Sources */,
+				3B2CA7009DD52DFF8513D2597C8DE7BD /* Frameworks */,
+				8DBF5E99C4F88A47939FBFA14CC54C15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DZLayoutTable-DZLayoutTable";
+			productName = "DZLayoutTable-DZLayoutTable";
+			productReference = 2E37AAAC0AF1F82AF3864A5E94E05E09 /* DZLayoutTable.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		A5C935B614DD08342117AD0B06959CB9 /* FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EDC9486793060341F389ED396820195 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildPhases = (
+				2CC3E7452D970C2994AA3AB9C9EBB620 /* Sources */,
+				96317938B7BBB0DE5B6C6F27B4A6333F /* Frameworks */,
+				6A3BB9E32BDAD9EDB00EDFE657BDB001 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBSnapshotTestCase;
+			productName = FBSnapshotTestCase;
+			productReference = AB388308AD4202D3A51835106C44FBDC /* FBSnapshotTestCase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A951A5353C67C604F0900E1BE6F1BC09 /* Pods-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A74A62F31B57A85BD97C2DF4E32BC463 /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
+			buildPhases = (
+				0B434E55EDB339CC9BB80AC9BF3D735F /* Sources */,
+				C0AE79E21347FDA17778C436A6CFEAB2 /* Frameworks */,
+				BDDDA1D1F036316377443B13C30EE010 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C6A6A034809AFD1958C8414A86F2CCE /* PBXTargetDependency */,
+				D4B9988E0532206C7BE829EE76B43A87 /* PBXTargetDependency */,
+				7B8EF9F3884BB69F540E60234C7D0190 /* PBXTargetDependency */,
+				1AF60B6B2368A0076D7DB502AB510ECC /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests";
+			productName = "Pods-Tests";
+			productReference = 51CB48E1261B7007E1E1AB71D1271E04 /* Pods_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BE7DCD3ECFE65961F3E1753D1D5EE827 /* DZAdjustFrame-DZAdjustFrame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84109512D19454980F6A9BE42D22532C /* Build configuration list for PBXNativeTarget "DZAdjustFrame-DZAdjustFrame" */;
+			buildPhases = (
+				4FEFBC66A8A4783127D23090CB516FE9 /* Sources */,
+				0DBC451E462795E06DFD164F4EEA2054 /* Frameworks */,
+				590B12DF2F98970AB7042515765BF7F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DZAdjustFrame-DZAdjustFrame";
+			productName = "DZAdjustFrame-DZAdjustFrame";
+			productReference = CE199ADEF48A47A794C164C3BED83E5B /* DZAdjustFrame.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -884,240 +878,267 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			productRefGroup = CA033E8BF3512B475A6B623CA740E313 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AB9AEF8A1B861BCC8517BF227853670E /* DZAdjustFrame */,
-				C48BB5F4329779B16A351909912C17E2 /* DZAdjustFrame-DZAdjustFrame */,
-				B6D637B8990603A39B414B5B70291CB2 /* DZGeometryTools */,
-				F1486931F4A7F62AD367A244510ED9E3 /* DZGeometryTools-DZGeometryTools */,
-				D5A4E36F8D3E012908C2899F8D9186D3 /* DZLayoutTable */,
-				B4940C27B03B6CBC2803DEF44F4A7787 /* DZLayoutTable-DZLayoutTable */,
-				41BFBC1CCEE8317507722C984524C5F4 /* FBSnapshotTestCase */,
-				B29B8CDE4B13A4E656FB13B6866C7C85 /* Pods-DZLayoutTable */,
-				7394F9768A0A7828DB546BE32A2738B7 /* Pods-Tests */,
+				1BE19DB19175A3D00427BD1B5E9FAD5A /* DZAdjustFrame */,
+				BE7DCD3ECFE65961F3E1753D1D5EE827 /* DZAdjustFrame-DZAdjustFrame */,
+				6FA93A9748FB15EDF612C779115876CD /* DZGeometryTools */,
+				7ABE2E0D13C9C7228E6B38A9EACDAE1B /* DZGeometryTools-DZGeometryTools */,
+				014756CE66A0625A61CE7E77F60A5D62 /* DZLayoutTable */,
+				9C9CA8AE4A6D70EAFFD358AE1328A941 /* DZLayoutTable-DZLayoutTable */,
+				A5C935B614DD08342117AD0B06959CB9 /* FBSnapshotTestCase */,
+				680445DABDD737F826CA3736CDDA9E7E /* Pods-DZLayoutTable */,
+				A951A5353C67C604F0900E1BE6F1BC09 /* Pods-Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		39F21D3131AC2038FDA75524F5D251B3 /* Resources */ = {
+		200D2324CFE1E7D84B5CBA0953A0F5D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F14326D9B3A48160FE70F707E67A3B81 /* DZAdjustFrame.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A2BBDE3A9F8A92A3DD879B32E2D3389 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E69E0A31C972CDBEB503AFC00F8B8D1 /* DZLayoutTable.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E4E92406690D741B93CE285F71DEBFD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		49A1F4BA7B65E81BE0B125B666A7CA83 /* Resources */ = {
+		590B12DF2F98970AB7042515765BF7F6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9B018E62B43EC90EE2182F1BF8E66C78 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A6716B5CA9846A9F08549711B0CF27BF /* DZAdjustFrame.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A19B77CAADBED4101FE04D64B8CC70EA /* Resources */ = {
+		8DBF5E99C4F88A47939FBFA14CC54C15 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AC204E07AC6E342A02E468685BEE9434 /* Resources */ = {
+		A1EE337628A3F9F68F235138F5654577 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				990A67E5B56497C13FFD6E5CBAF941B3 /* DZLayoutTable.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EF5747EEA9AA7B7C273800DFA354F339 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EC0D51773220F0461A382E81370C9095 /* DZGeometryTools.bundle in Resources */,
+				D2B8E1DCEF17D90EEE477F547DCB3FB3 /* DZGeometryTools.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		19444B2B0858ABB7B5746B178AB6C815 /* Sources */ = {
+		0AF816E532FAB79CAA1032B1BCD1E854 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		38A810CD895999AB09797B5B98CE4334 /* Sources */ = {
+		0B434E55EDB339CC9BB80AC9BF3D735F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B83BBBEC448D9C7E275F6F9BEAA44EA /* Pods-Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DA0E7390B343FBA1D3F6DF78E3C268A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FD8BE412B904E3404EC42CE62C225B8 /* Pods-DZLayoutTable-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CC3E7452D970C2994AA3AB9C9EBB620 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC2BD0A04199B280AD93F459968CAFC2 /* FBSnapshotTestCase-dummy.m in Sources */,
+				35848D70EAC9237246BDF63457729694 /* FBSnapshotTestCase.m in Sources */,
+				5D14695A69EC4A8DF7488D0FC59C105C /* FBSnapshotTestCasePlatform.m in Sources */,
+				AA8501741ABB8D75C6C47DE086BACD37 /* FBSnapshotTestController.m in Sources */,
+				52F7A46AB0053D8BB1D793B917D37BB2 /* SwiftSupport.swift in Sources */,
+				788E3D9458FE9540469981BE9A0B227C /* UIImage+Compare.m in Sources */,
+				163C6E8E5E7CEE1E0BEEB9CA0939DA3A /* UIImage+Diff.m in Sources */,
+				EDD91D0CC316AC322E1607D3749F1C0A /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FEFBC66A8A4783127D23090CB516FE9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		848F566CFCA4985E7FD956AFFCCCFD66 /* Sources */ = {
+		57F3191564B21B643C1BA94913C2998A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B704E29BCE34F93479137F1950143056 /* Pods-Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A5C1A94A2D3AD2ABF5743FE1DED2ED25 /* Sources */ = {
+		58CA3DDC93E6F5EF20C6C4F5130537AA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9376A284DDB75AC9210751A874B464FA /* AdjustFrame.m in Sources */,
-				9ABBB3242BBC1F4A17AC3100F288BAAD /* DZAdjustFrame-dummy.m in Sources */,
-				8F73804C9653F9F3B1E784D908E529F7 /* DZAdjustTableView.m in Sources */,
-				D927E284B5BC5AB9163548C5FEC88140 /* DZAdjustTableViewController.m in Sources */,
-				8DC6F8645EE88AA62B7D4376B3ECB6E9 /* DZGrowImageView.m in Sources */,
-				EBB15A8A632DB4DEE27A72E7D79478B9 /* DZGrowLabel.m in Sources */,
-				D8D6D0323FD45569190103C3933DEF46 /* DZGrowTextView.m in Sources */,
+				45D65DF26C7E9B19122AE5BA269023A2 /* AdjustFrame.m in Sources */,
+				C3542261C409074C2A652D9F199DA550 /* DZAdjustFrame-dummy.m in Sources */,
+				1DBDCF4D12B5119B08ABCA0893E1AEBC /* DZAdjustTableView.m in Sources */,
+				4777DB20AA3AB4873CF69F114384A827 /* DZAdjustTableViewController.m in Sources */,
+				F1CFA387566B4908BC73DDFD8FE6134F /* DZGrowImageView.m in Sources */,
+				615128475D0AA0036BC92174E37647A6 /* DZGrowLabel.m in Sources */,
+				B192A29BC71BB0257110EAF9BCEE6E03 /* DZGrowTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AD74BBD3191CFD06C20664EBC89EBDC4 /* Sources */ = {
+		D92F74196AE01A71099635833AA5F689 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABDA0BED582E02366445C8912F7742F2 /* DZDevices.m in Sources */,
-				C369B574A5A3773A93B1A12A4035CD3B /* DZGeometryTools-dummy.m in Sources */,
-				B06E13D47D6F525A0910CEA327D26786 /* DZGeometryTools.m in Sources */,
-				134F7E9DAEEE4D9380D7E74E359B31DA /* UIDeviceHardware.m in Sources */,
+				FB64F2C7AAB3BAED28747BDFD15359DF /* DZLayout.m in Sources */,
+				F3864ABE5C26AC062CA71DEF72F7E9DE /* DZLayoutTable-dummy.m in Sources */,
+				4EAC4380E7A6C9A31DB0F2AAEB41EA19 /* DZLayoutTableViewCell.m in Sources */,
+				A511420550AFACE33FF155289399C499 /* DZLayoutTableViewController.m in Sources */,
+				AD56736774DF8EF678BCA94F8F5CB746 /* DZSectionDataController.m in Sources */,
+				5D558F3EBE677CF55AF868CD69A243D2 /* DZTableDataSync.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CD1FCC1FF6C7D936FAFC59D20BC10738 /* Sources */ = {
+		EED81AD3B46FB4F9EA85E69C08F7BBBE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D979A2E0A3F13FE34A4BD50F87A2C651 /* Pods-DZLayoutTable-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F02DEFEB64C306FF2726D46DF02DA418 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D653AE9855972004C4DF86C72F7FEDED /* DZLayout.m in Sources */,
-				6AF22BE0732BBF451C373BEBD77BC33E /* DZLayoutTable-dummy.m in Sources */,
-				0D8DE074F8FF98B01B0497DCAF8696E3 /* DZLayoutTableViewCell.m in Sources */,
-				386A00CC25532E58F44C425B0189ED83 /* DZLayoutTableViewController.m in Sources */,
-				A1E1730EAAE1217395418D81D59EDAB0 /* DZObject.m in Sources */,
-				27BA6F0B2982680D9FD0D51509EA43BA /* DZTableDataSync.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F3A3B2CA42569B6BB8A9AFE7E64280EE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				071F9DA63497F382064CC5F81D3E0E60 /* FBSnapshotTestCase-dummy.m in Sources */,
-				0E58638A7ED535953A591BBFDF6EDDD7 /* FBSnapshotTestCase.m in Sources */,
-				A19C8464CFA803AF003625307F436796 /* FBSnapshotTestCasePlatform.m in Sources */,
-				3DCDD8108650838C6683F3FD57A25DE7 /* FBSnapshotTestController.m in Sources */,
-				57E76B468C4F1DB1A48962B5E40E14A3 /* SwiftSupport.swift in Sources */,
-				544D0CD6C8BC83C704F182203A8E370D /* UIImage+Compare.m in Sources */,
-				55BA58F93DEA8022610678D34C5A72AE /* UIImage+Diff.m in Sources */,
-				031837897E7846F56AA32EB1EED78912 /* UIImage+Snapshot.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FFA8FB38A2D36AEE83BF752CE491F390 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				3FFFF77A9AD243EFEDB695CD058F7B45 /* DZDevices.m in Sources */,
+				A140040C65ABD9BFBF0B7EA3D3FC7FB2 /* DZGeometryTools-dummy.m in Sources */,
+				DD68D1CA53E239DDF1A00D323B1D3F43 /* DZGeometryTools.m in Sources */,
+				439393DD2844CBAC8F8D2143C43AF880 /* UIDeviceHardware.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0C241B7D017748E212259AD4ECE63389 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = DZAdjustFrame;
-			target = AB9AEF8A1B861BCC8517BF227853670E /* DZAdjustFrame */;
-			targetProxy = C927EB60F6569EEED91B9D5A501A7D0E /* PBXContainerItemProxy */;
-		};
-		119C1F1DF6199C3185157A6271D27F34 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "DZLayoutTable-DZLayoutTable";
-			target = B4940C27B03B6CBC2803DEF44F4A7787 /* DZLayoutTable-DZLayoutTable */;
-			targetProxy = D7EB635EB87A76DBE89F9BE14A9AAE6C /* PBXContainerItemProxy */;
-		};
-		453745037EC979A759FC158171FB4652 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FBSnapshotTestCase;
-			target = 41BFBC1CCEE8317507722C984524C5F4 /* FBSnapshotTestCase */;
-			targetProxy = DF3541C8A8C4AC3FCF21637906C0FBE1 /* PBXContainerItemProxy */;
-		};
-		6A9FB2A1C790BCE250617365E208B976 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = DZGeometryTools;
-			target = B6D637B8990603A39B414B5B70291CB2 /* DZGeometryTools */;
-			targetProxy = 377A784B2068645C592D742C2C5AF9D9 /* PBXContainerItemProxy */;
-		};
-		71DA33788A0E7E8F7DF22968B936ABA6 /* PBXTargetDependency */ = {
+		0865B46C2BEF9B7B4C5828E2C4BA2857 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "DZAdjustFrame-DZAdjustFrame";
-			target = C48BB5F4329779B16A351909912C17E2 /* DZAdjustFrame-DZAdjustFrame */;
-			targetProxy = 16A8E0DDEDB2B8CBC42A07A9AD95FCF5 /* PBXContainerItemProxy */;
+			target = BE7DCD3ECFE65961F3E1753D1D5EE827 /* DZAdjustFrame-DZAdjustFrame */;
+			targetProxy = 86EC4B3DB835C257E8D8E25911C19A33 /* PBXContainerItemProxy */;
 		};
-		98011B1423C363C77C0892C96E91721A /* PBXTargetDependency */ = {
+		0ACB67180B1BFBBA59D60F294AB07A39 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DZAdjustFrame;
-			target = AB9AEF8A1B861BCC8517BF227853670E /* DZAdjustFrame */;
-			targetProxy = B22FD24FF08F462075EA291CBDFADE67 /* PBXContainerItemProxy */;
+			target = 1BE19DB19175A3D00427BD1B5E9FAD5A /* DZAdjustFrame */;
+			targetProxy = 6564BF3D95B2E66F987EAC6BAD2FD6BA /* PBXContainerItemProxy */;
 		};
-		B1A25D4BAB53D1CB186FA4F967A9A0C2 /* PBXTargetDependency */ = {
+		0C6A6A034809AFD1958C8414A86F2CCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DZAdjustFrame;
+			target = 1BE19DB19175A3D00427BD1B5E9FAD5A /* DZAdjustFrame */;
+			targetProxy = 96F7013297F8F2214FA132BA8C193E57 /* PBXContainerItemProxy */;
+		};
+		1AF60B6B2368A0076D7DB502AB510ECC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = A5C935B614DD08342117AD0B06959CB9 /* FBSnapshotTestCase */;
+			targetProxy = AB77B08AC73BDD88367996AF39D3AB32 /* PBXContainerItemProxy */;
+		};
+		1BBD320404BCE7B40E0FCD1049F479D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DZGeometryTools;
+			target = 6FA93A9748FB15EDF612C779115876CD /* DZGeometryTools */;
+			targetProxy = C29EBD194DD9DDBC600271B5FEF1B6BD /* PBXContainerItemProxy */;
+		};
+		2CEBEC59E4F78DDEBE90DD97B624C352 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DZLayoutTable;
+			target = 014756CE66A0625A61CE7E77F60A5D62 /* DZLayoutTable */;
+			targetProxy = 4DDC5E9E29F64B359EDB47A3D704434E /* PBXContainerItemProxy */;
+		};
+		42C9FCF42B7100AF50DB493992E6B708 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DZGeometryTools;
+			target = 6FA93A9748FB15EDF612C779115876CD /* DZGeometryTools */;
+			targetProxy = 419565CF58C29338B218C66316BEE6D3 /* PBXContainerItemProxy */;
+		};
+		7B8EF9F3884BB69F540E60234C7D0190 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DZLayoutTable;
+			target = 014756CE66A0625A61CE7E77F60A5D62 /* DZLayoutTable */;
+			targetProxy = 551C74A6A2F5BCB34195BB9268DF529E /* PBXContainerItemProxy */;
+		};
+		7BED5AEBB7696552CE77886A26E795A3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "DZGeometryTools-DZGeometryTools";
-			target = F1486931F4A7F62AD367A244510ED9E3 /* DZGeometryTools-DZGeometryTools */;
-			targetProxy = 9442F8096B0A8B7EFE2DABEEE6C832EB /* PBXContainerItemProxy */;
+			target = 7ABE2E0D13C9C7228E6B38A9EACDAE1B /* DZGeometryTools-DZGeometryTools */;
+			targetProxy = DF143FF55B33FA8F0EA83DDD93F74247 /* PBXContainerItemProxy */;
 		};
-		C3B4771CD35B99BD66B761BDAACD78B8 /* PBXTargetDependency */ = {
+		84B1C5BB116ECE2B7D9DBC17EF5AEE5F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = DZGeometryTools;
-			target = B6D637B8990603A39B414B5B70291CB2 /* DZGeometryTools */;
-			targetProxy = 41DEE018A24D412550D40D63008359AD /* PBXContainerItemProxy */;
+			name = "DZLayoutTable-DZLayoutTable";
+			target = 9C9CA8AE4A6D70EAFFD358AE1328A941 /* DZLayoutTable-DZLayoutTable */;
+			targetProxy = D091C97DB38FF5A2770D3BF1D64874BE /* PBXContainerItemProxy */;
 		};
-		C9407A03AC86249F757E3214EF9667B7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = DZLayoutTable;
-			target = D5A4E36F8D3E012908C2899F8D9186D3 /* DZLayoutTable */;
-			targetProxy = ED56768D3C5A2A1C448E8917F5C6926C /* PBXContainerItemProxy */;
-		};
-		CF3EF32C97778039B9C264292E31B380 /* PBXTargetDependency */ = {
+		99DBA5722EBE9F6CEA30C0786D4CF15B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DZAdjustFrame;
-			target = AB9AEF8A1B861BCC8517BF227853670E /* DZAdjustFrame */;
-			targetProxy = B1F231831546730F869EE5D4B05C3A0A /* PBXContainerItemProxy */;
+			target = 1BE19DB19175A3D00427BD1B5E9FAD5A /* DZAdjustFrame */;
+			targetProxy = FC1115F4A113F92D721DB02AE366BCA1 /* PBXContainerItemProxy */;
 		};
-		D1457325338ED05EAAC3A8CA4156C35A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = DZLayoutTable;
-			target = D5A4E36F8D3E012908C2899F8D9186D3 /* DZLayoutTable */;
-			targetProxy = 6CE047A7800DEA5B7E7AF65E719D4648 /* PBXContainerItemProxy */;
-		};
-		F8B057E8FAC5437D51B08CB64E93C2C7 /* PBXTargetDependency */ = {
+		D4B9988E0532206C7BE829EE76B43A87 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DZGeometryTools;
-			target = B6D637B8990603A39B414B5B70291CB2 /* DZGeometryTools */;
-			targetProxy = 34DE4933E3E9433ABFE4915F64E85E0E /* PBXContainerItemProxy */;
+			target = 6FA93A9748FB15EDF612C779115876CD /* DZGeometryTools */;
+			targetProxy = 183B8CF649F750D21254CD3D62C86FE9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		00EF3431A9916BD1B85A27FEF7B8006F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5315DFEF517788B7A35306CA00658E1A /* DZGeometryTools.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DZGeometryTools/DZGeometryTools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DZGeometryTools/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DZGeometryTools/DZGeometryTools.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DZGeometryTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1191,131 +1212,9 @@
 			};
 			name = Debug;
 		};
-		11F82975EA85DA5C13C1E6D634BF08EC /* Debug */ = {
+		0FAC90CE6788406489CDBB4D686E9F9E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7301403B07FF9585A1FF1A1FB37B6969 /* DZAdjustFrame-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = DZAdjustFrame;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		1DF419F2E74361A0EB931DF18FADE4CD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D85AF0CF4281FAADBF8551C1B8BEEB79 /* DZLayoutTable-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.1.8;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.1.8;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/DZLayoutTable/DZLayoutTable-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DZLayoutTable/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DZLayoutTable/DZLayoutTable.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = DZLayoutTable;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		205A7E8C065D9E4D4CA72418B0531999 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D85AF0CF4281FAADBF8551C1B8BEEB79 /* DZLayoutTable-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.1.8;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.1.8;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/DZLayoutTable/DZLayoutTable-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DZLayoutTable/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DZLayoutTable/DZLayoutTable.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = DZLayoutTable;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		2526DA0CBB9F4C930F694CB453584BAA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7301403B07FF9585A1FF1A1FB37B6969 /* DZAdjustFrame-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.1.7;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.1.7;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/DZAdjustFrame/DZAdjustFrame-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DZAdjustFrame/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DZAdjustFrame/DZAdjustFrame.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = DZAdjustFrame;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		285886EB3069C1AD5146DA1DA5A0EDAF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E3077FA70E5625DF5557492963C00B0C /* Pods-Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-Tests/Pods-Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4910223AAE0FDC70823A11E333143421 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B0B27342FBB0CDC5111F9632C63B585E /* Pods-DZLayoutTable.debug.xcconfig */;
+			baseConfigurationReference = 2B0F572BDDE75BA89B6BA9CE772668F4 /* Pods-DZLayoutTable.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1328,8 +1227,9 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-DZLayoutTable/Pods-DZLayoutTable.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1340,38 +1240,11 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
-		};
-		4C962C5BF43F007FB59F80EF936F09A1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 62393B9608B3FDD65A0B01A158F91C5E /* DZGeometryTools-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1.1.3;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/DZGeometryTools/DZGeometryTools-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DZGeometryTools/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DZGeometryTools/DZGeometryTools.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = DZGeometryTools;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
 			name = Release;
 		};
-		4F03B477080A3B09201EF42B93C8146C /* Debug */ = {
+		10B0AE16D1BDE327F51911F50964E96A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C589458A4A6ED33619A59BBE690625EC /* Pods-Tests.debug.xcconfig */;
+			baseConfigurationReference = D028F360962DE793BAE1D09E37BF6FCC /* Pods-Tests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1384,6 +1257,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Tests/Pods-Tests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
@@ -1399,15 +1273,96 @@
 			};
 			name = Debug;
 		};
-		63695C0F0206C48F274927CE705E0EB8 /* Release */ = {
+		2190F36EDE55898A9D348B8AB86BA62E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7301403B07FF9585A1FF1A1FB37B6969 /* DZAdjustFrame-Private.xcconfig */;
+			baseConfigurationReference = 5BE6F151F9202D85A8B842A5913F4A2C /* DZLayoutTable.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DZLayoutTable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		2AD4C47C800D5CC79F04F3E0772B357E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFFB39ADAE00C24F672CDAC027DF74D7 /* Pods-Tests.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.1.7;
+				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.1.7;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Tests/Pods-Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3EAA9D439B02F768E8F69709CDF365C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BE6F151F9202D85A8B842A5913F4A2C /* DZLayoutTable.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DZLayoutTable/DZLayoutTable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DZLayoutTable/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DZLayoutTable/DZLayoutTable.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DZLayoutTable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5FF0325CBDBBACCEC91E7DB879FC5190 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5315DFEF517788B7A35306CA00658E1A /* DZGeometryTools.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DZGeometryTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		600095BAE391130F330CD4B157FC6F98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAE1A9BCA332293917049FDAF816800C /* DZAdjustFrame.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/DZAdjustFrame/DZAdjustFrame-prefix.pch";
@@ -1426,15 +1381,15 @@
 			};
 			name = Release;
 		};
-		8235268DEE18ED01E601263804984E43 /* Release */ = {
+		86833E157B280B5A111105C015CF1BE2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB7414F12871B2846F197216CAD7ED5E /* FBSnapshotTestCase-Private.xcconfig */;
+			baseConfigurationReference = C5824588B8CA41DC3749515D8FFF5C67 /* FBSnapshotTestCase.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 2.0.4;
+				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 2;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
@@ -1453,21 +1408,9 @@
 			};
 			name = Release;
 		};
-		98C89762F2E2D48CA9D753C60E0A0A95 /* Debug */ = {
+		8F729852C2FF4F2EA148F59CD5C066E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D85AF0CF4281FAADBF8551C1B8BEEB79 /* DZLayoutTable-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = DZLayoutTable;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		A3BDAC02FC2E6FAF815867F92CBDDE21 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 32066E6504F1851390C93228AA8B5711 /* Pods-DZLayoutTable.release.xcconfig */;
+			baseConfigurationReference = 53D14A435FB72DADE08ED2606BEE1D52 /* Pods-DZLayoutTable.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1480,8 +1423,9 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-DZLayoutTable/Pods-DZLayoutTable.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1492,11 +1436,77 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		A58EBE250CDD83A233EB604806AED203 /* Release */ = {
+		AC303C854AC9749173B19CC0A67FEEB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D85AF0CF4281FAADBF8551C1B8BEEB79 /* DZLayoutTable-Private.xcconfig */;
+			baseConfigurationReference = 5BE6F151F9202D85A8B842A5913F4A2C /* DZLayoutTable.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DZLayoutTable/DZLayoutTable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DZLayoutTable/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DZLayoutTable/DZLayoutTable.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DZLayoutTable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ADFDC11F3112B374AAF2B6F24A6C0BE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAE1A9BCA332293917049FDAF816800C /* DZAdjustFrame.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DZAdjustFrame/DZAdjustFrame-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DZAdjustFrame/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DZAdjustFrame/DZAdjustFrame.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DZAdjustFrame;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AF24299DEB3BF2289B0CF063A24EEC57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAE1A9BCA332293917049FDAF816800C /* DZAdjustFrame.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DZAdjustFrame;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		B09C80013091DAB49772C22D25FA7411 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BE6F151F9202D85A8B842A5913F4A2C /* DZLayoutTable.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				PRODUCT_NAME = DZLayoutTable;
@@ -1504,17 +1514,17 @@
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = bundle;
 			};
-			name = Release;
+			name = Debug;
 		};
-		B2FBE0227E28A98CFD54FB9DAB00F18A /* Debug */ = {
+		BAF5175FA166657BEB96860F2316202A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB7414F12871B2846F197216CAD7ED5E /* FBSnapshotTestCase-Private.xcconfig */;
+			baseConfigurationReference = C5824588B8CA41DC3749515D8FFF5C67 /* FBSnapshotTestCase.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 2.0.4;
+				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 2;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
@@ -1534,9 +1544,9 @@
 			};
 			name = Debug;
 		};
-		CE2350B238926C79BA741C0BEA0FFB91 /* Debug */ = {
+		D58C3D6AFC0868B23486F009EF9B56EC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 62393B9608B3FDD65A0B01A158F91C5E /* DZGeometryTools-Private.xcconfig */;
+			baseConfigurationReference = 5315DFEF517788B7A35306CA00658E1A /* DZGeometryTools.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				PRODUCT_NAME = DZGeometryTools;
@@ -1546,9 +1556,9 @@
 			};
 			name = Debug;
 		};
-		D23457FEFE54BFBF48A6A10266F649B8 /* Release */ = {
+		D8AA40B32E6A78CD73B125A39FCEF373 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7301403B07FF9585A1FF1A1FB37B6969 /* DZAdjustFrame-Private.xcconfig */;
+			baseConfigurationReference = EAE1A9BCA332293917049FDAF816800C /* DZAdjustFrame.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				PRODUCT_NAME = DZAdjustFrame;
@@ -1558,15 +1568,15 @@
 			};
 			name = Release;
 		};
-		E413BCE2800C9AE72E412BDD2112BE04 /* Debug */ = {
+		EAAC565BB43A3FAEBD110B76E70AA21C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 62393B9608B3FDD65A0B01A158F91C5E /* DZGeometryTools-Private.xcconfig */;
+			baseConfigurationReference = 5315DFEF517788B7A35306CA00658E1A /* DZGeometryTools.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1.1.3;
+				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/DZGeometryTools/DZGeometryTools-prefix.pch";
@@ -1584,22 +1594,28 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		FA3FDC0D6474884F59257352DED8C517 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 62393B9608B3FDD65A0B01A158F91C5E /* DZGeometryTools-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = DZGeometryTools;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0EDC9486793060341F389ED396820195 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAF5175FA166657BEB96860F2316202A /* Debug */,
+				86833E157B280B5A111105C015CF1BE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FD0F92A671F0CC5BD57A58FE32355DA /* Build configuration list for PBXNativeTarget "DZGeometryTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAAC565BB43A3FAEBD110B76E70AA21C /* Debug */,
+				00EF3431A9916BD1B85A27FEF7B8006F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1609,83 +1625,65 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		41F7BB792688860B421BFC2B1632B9DB /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
+		42A5FCECCB05BF686630CEB15191C7C5 /* Build configuration list for PBXNativeTarget "DZGeometryTools-DZGeometryTools" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4F03B477080A3B09201EF42B93C8146C /* Debug */,
-				285886EB3069C1AD5146DA1DA5A0EDAF /* Release */,
+				D58C3D6AFC0868B23486F009EF9B56EC /* Debug */,
+				5FF0325CBDBBACCEC91E7DB879FC5190 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		54014FA6546DBFF84543A0677213B803 /* Build configuration list for PBXNativeTarget "DZAdjustFrame-DZAdjustFrame" */ = {
+		4A08F8CA60A60461EDE370C3FF3F18C1 /* Build configuration list for PBXNativeTarget "DZLayoutTable-DZLayoutTable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				11F82975EA85DA5C13C1E6D634BF08EC /* Debug */,
-				D23457FEFE54BFBF48A6A10266F649B8 /* Release */,
+				B09C80013091DAB49772C22D25FA7411 /* Debug */,
+				2190F36EDE55898A9D348B8AB86BA62E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5744335E394367343E5969ED23FCF5CD /* Build configuration list for PBXNativeTarget "DZGeometryTools" */ = {
+		84109512D19454980F6A9BE42D22532C /* Build configuration list for PBXNativeTarget "DZAdjustFrame-DZAdjustFrame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E413BCE2800C9AE72E412BDD2112BE04 /* Debug */,
-				4C962C5BF43F007FB59F80EF936F09A1 /* Release */,
+				AF24299DEB3BF2289B0CF063A24EEC57 /* Debug */,
+				D8AA40B32E6A78CD73B125A39FCEF373 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8F0A4305EECFD58B071324135325FDEC /* Build configuration list for PBXNativeTarget "DZLayoutTable-DZLayoutTable" */ = {
+		A4E23509B50548BF7EB8E3D667BF6375 /* Build configuration list for PBXNativeTarget "DZLayoutTable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				98C89762F2E2D48CA9D753C60E0A0A95 /* Debug */,
-				A58EBE250CDD83A233EB604806AED203 /* Release */,
+				AC303C854AC9749173B19CC0A67FEEB2 /* Debug */,
+				3EAA9D439B02F768E8F69709CDF365C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BA45C29D32B6583004884D1B745459B7 /* Build configuration list for PBXNativeTarget "DZAdjustFrame" */ = {
+		A74A62F31B57A85BD97C2DF4E32BC463 /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2526DA0CBB9F4C930F694CB453584BAA /* Debug */,
-				63695C0F0206C48F274927CE705E0EB8 /* Release */,
+				10B0AE16D1BDE327F51911F50964E96A /* Debug */,
+				2AD4C47C800D5CC79F04F3E0772B357E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C3FB837ABEAB37B96651E48ACD9CA545 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+		E3DE0338029DCF223337F34EB8FF7612 /* Build configuration list for PBXNativeTarget "DZAdjustFrame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B2FBE0227E28A98CFD54FB9DAB00F18A /* Debug */,
-				8235268DEE18ED01E601263804984E43 /* Release */,
+				ADFDC11F3112B374AAF2B6F24A6C0BE1 /* Debug */,
+				600095BAE391130F330CD4B157FC6F98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C863AB01E2FEE874A412B1D421B69061 /* Build configuration list for PBXNativeTarget "Pods-DZLayoutTable" */ = {
+		FD5555BE2C7D22C34712CFF59C464334 /* Build configuration list for PBXNativeTarget "Pods-DZLayoutTable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4910223AAE0FDC70823A11E333143421 /* Debug */,
-				A3BDAC02FC2E6FAF815867F92CBDDE21 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D0837EFE2E174E19C32C3084F8C82BEA /* Build configuration list for PBXNativeTarget "DZLayoutTable" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				205A7E8C065D9E4D4CA72418B0531999 /* Debug */,
-				1DF419F2E74361A0EB931DF18FADE4CD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FE26710B81A768EA9D39D0F31123F699 /* Build configuration list for PBXNativeTarget "DZGeometryTools-DZGeometryTools" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CE2350B238926C79BA741C0BEA0FFB91 /* Debug */,
-				FA3FDC0D6474884F59257352DED8C517 /* Release */,
+				8F729852C2FF4F2EA148F59CD5C066E1 /* Debug */,
+				0FAC90CE6788406489CDBB4D686E9F9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

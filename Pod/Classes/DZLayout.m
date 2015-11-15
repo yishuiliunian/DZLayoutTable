@@ -9,6 +9,16 @@
 #import "DZLayout.h"
 
 @implementation DZLayout
+- (instancetype) init
+{
+    self = [super init];
+    if (!self) {
+        return self;
+    }
+    _cellHeight = 44;
+    return self;
+
+}
 
 - (NSString*) cellIdentify
 {
@@ -18,7 +28,17 @@
 {
     return [[self.cellClass alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:NSStringFromClass(self.cellClass)];
 }
-- (void) layoutItems
+
+- (void) setDataObject:(id)dataObject
+{
+    if (dataObject != _dataObject) {
+        _dataObject = dataObject;
+        [self prepareLayout];
+    }
+
+}
+
+- (void) prepareLayout
 {
     
 }
@@ -29,6 +49,11 @@
 }
 
 - (void) loadContentForCell:(DZLayoutTableViewCell *)cell
+{
+
+}
+
+- (void) doActionInEnviroment:(DZLayoutTableViewController *)tableVC
 {
     
 }

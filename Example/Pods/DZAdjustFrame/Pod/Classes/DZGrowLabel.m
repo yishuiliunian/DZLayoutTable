@@ -40,7 +40,9 @@
 - (void) setFrame:(CGRect)frame
 {
     [super setFrame:frame];
-    _needUpdateTextHeight = YES;
+    if (!CGRectEqualToRect(self.frame, frame)) {
+        _needUpdateTextHeight = YES;
+    }
 }
 - (void) layoutSubviews
 {

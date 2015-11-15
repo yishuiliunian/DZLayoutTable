@@ -23,28 +23,28 @@
 {
     if (_dataSyncer != dataSyncer) {
         _dataSyncer = dataSyncer;
-        _dataSyncer.tableView = self.tableView;
+        _dataSyncer.tableViewController = (UITableViewController*)self;
     }
 }
 
 - (void) viewDidLoad
 {
     [super viewDidLoad];
-    _dataSyncer.tableView = self.tableView;
+    _dataSyncer.tableViewController = (UITableViewController*)self;
 }
 - (NSInteger) tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return _dataSyncer.objects.count;
+    return [_dataSyncer.objects countOfObjectsAtSection:section];
 }
 
 - (NSInteger) numberOfSectionsInTableView:(UITableView *)tableView
 {
-    return 1;
+    return _dataSyncer.objects.sectionCount;
 }
 
 - (UITableViewCell*) tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    DZLayout* layout = [_dataSyncer layoutAtIndex:indexPath.row];
+    DZLayout* layout = [_dataSyncer.objects objectAtIndexPath:indexPath];
     DZLayoutTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:layout.cellIdentify];
     if (!cell) {
         cell = [layout cell];
@@ -55,8 +55,14 @@
 
 - (CGFloat) tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    DZLayout* layout = [_dataSyncer layoutAtIndex:indexPath.row];
+    DZLayout* layout = [_dataSyncer.objects objectAtIndexPath:indexPath];
     return layout.cellHeight;
+}
+
+- (void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    DZLayout* layout = [_dataSyncer.objects objectAtIndexPath:indexPath];
+    [layout doActionInEnviroment:self];
 }
 @end
 

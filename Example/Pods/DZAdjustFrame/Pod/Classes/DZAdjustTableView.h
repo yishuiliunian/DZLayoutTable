@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface DZAdjustTableView : UITableView
-
+@property (nonatomic, strong) UIView* placeHolderView;
 @end

@@ -14,16 +14,12 @@
     // Initialization code
 }
 
-- (void) didLayoutChanged:(DZLayout *)layout
-{
-    
-}
+
 - (void) setLayout:(DZLayout *)layout
 {
     if (_layout != layout) {
         _layout = layout;
         [_layout loadContentForCell:self];
-        [self didLayoutChanged:layout];
         [self setNeedsLayout];
     }
 }

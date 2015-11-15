@@ -10,5 +10,4 @@
 @class DZLayout;
 @interface DZLayoutTableViewCell : UITableViewCell
 @property (nonatomic, strong) DZLayout* layout;
-- (void) didLayoutChanged:(DZLayout*)layout;
 @end

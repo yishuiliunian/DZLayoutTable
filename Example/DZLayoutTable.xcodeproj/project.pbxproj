@@ -22,10 +22,10 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		628E061F3387D17445F409B1 /* Pods_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 853CB76C525B69439F245441 /* Pods_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		628E061F3387D17445F409B1 /* Pods_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 853CB76C525B69439F245441 /* Pods_Tests.framework */; };
 		65C396101AC13E980076E3C0 /* DZTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C3960F1AC13E980076E3C0 /* DZTestViewController.m */; };
 		65C396131AC13EB40076E3C0 /* DZTestSyncer.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C396121AC13EB40076E3C0 /* DZTestSyncer.m */; };
-		FC6A863C5D37D30ED5DFD04D /* Pods_DZLayoutTable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E66D5F645D61065C7FE895 /* Pods_DZLayoutTable.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		FC6A863C5D37D30ED5DFD04D /* Pods_DZLayoutTable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E66D5F645D61065C7FE895 /* Pods_DZLayoutTable.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */

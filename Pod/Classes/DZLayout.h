@@ -9,13 +9,17 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #import "DZLayoutTableViewCell.h"
+@class DZLayoutTableViewController;
 @interface DZLayout : NSObject
 @property (nonatomic, assign) CGFloat cellWidth;
 @property (nonatomic, assign) CGFloat cellHeight;
 @property (nonatomic, strong) Class cellClass;
 @property (nonatomic, strong, readonly) NSString* cellIdentify;
-- (void) layoutItems;
+@property (nonatomic, strong) id dataObject;
+
+- (void) prepareLayout;
 - (DZLayoutTableViewCell*) cell;
 - (void) layoutTableViewCell:(DZLayoutTableViewCell*)cell;
 - (void) loadContentForCell:(DZLayoutTableViewCell*)cell;
+- (void) doActionInEnviroment:(DZLayoutTableViewController*)tableVC;
 @end

@@ -18,7 +18,6 @@
 @end
 
 @interface DZTestLayout : DZLayout
-@property (nonatomic, strong) DZModel* model;
 @property (nonatomic, strong) UIFont* titleFont;
 @end
 
@@ -30,50 +29,30 @@
     if (!self) {
         return self;
     }
-    
     return self;
 }
-- (void) setModel:(DZModel *)model
+
+- (void) loadContentForCell:(DZLayoutTableViewCell *)cell
 {
-    if (_model != model) {
-        _model = model;
-        [self layoutItems];
-    }
+    DZModel* model = (DZModel*)self.dataObject;
+    cell.textLabel.text = model.title;
 }
-- (void) layoutItems
+
+- (void) doActionInEnviroment:(DZLayoutTableViewController *)tableVC
 {
-    [super layoutItems];
-}
-- (void) layoutTableViewCell:(UITableViewCell *)cell
-{
-    [super layoutTableViewCell:cell];
+    NSLog(@"cell taped");
 }
 @end
 
 
-@interface DZTableViewCell : UITableViewCell
-{
-    DZLayout* _layout;
-}
+@interface DZTableViewCell : DZLayoutTableViewCell
+
 @end
 
 @implementation DZTableViewCell
-
-- (void) setLayoutObject:(DZLayout *)layout
-{
-    if (_layout != layout) {
-        _layout = layout;
-        [self setNeedsLayout];
-    }
-}
-
-- (void) layoutSubviews
-{
-    [super layoutSubviews];
-    [_layout layoutTableViewCell:self];
-}
-
 @end
+
+
 @interface DZTestSyncer ()
 @end
 @implementation DZTestSyncer
@@ -88,10 +67,9 @@
         layout.cellWidth = 300;
         model.title = @"xxx";
         model.content = @"xxx";
-        layout.model = model;
+        layout.dataObject = model;
         [array addObject:layout];
     }
-    _layoutObjects = array;
-    [self.tableView reloadData];
+    [self finishedReloadAllData:@[array]];
 }
 @end

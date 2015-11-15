@@ -3,7 +3,7 @@
 #import "DZLayout.h"
 #import "DZLayoutTableViewCell.h"
 #import "DZLayoutTableViewController.h"
-#import "DZObject.h"
+#import "DZSectionDataController.h"
 #import "DZTableDataSync.h"
 
 FOUNDATION_EXPORT double DZLayoutTableVersionNumber;

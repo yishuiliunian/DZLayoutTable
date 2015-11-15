@@ -9,16 +9,16 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #import "DZLayout.h"
+#import "DZSectionDataController.h"
 @interface DZTableDataSync : NSObject
 {
-    NSArray* _layoutObjects;
+    DZSectionDataController* _layoutObjects;
     NSInteger _currentPageIndex;
 }
-@property (nonatomic, weak) UITableView* tableView;
+@property (nonatomic, weak) UITableViewController* tableViewController;
 @property (nonatomic, assign, readonly) BOOL isSyncing;
-@property (nonatomic, strong, readonly) NSArray* objects;
-- (void) insertLayoutObject:(DZLayout*)anObject atIndex:(NSUInteger)index;
-- (void) removeLayoutObjectAtIndex:(NSUInteger)index;
+@property (nonatomic, strong, readonly) DZSectionDataController* objects;
+
 /**
  *  开始重新刷新全部数据，调用父类方法将会设置同步状态为开始状态
  */
@@ -27,18 +27,15 @@
  *  开始拉取下一页数据，调用父类方法将会这是同步状态为结束状态
  */
 - (void) syncNextObjects;
-- (DZLayout*) layoutAtIndex:(NSInteger)index;
-
-
-/**
- *  增加pageIndex
- */
-- (void) increasePageIndex;
 
 /**
  *  同步状态控制
  */
 - (void) finishingSync;
+
+/**
+ *  开始同步
+ */
 - (void) startSync;
 
 /**

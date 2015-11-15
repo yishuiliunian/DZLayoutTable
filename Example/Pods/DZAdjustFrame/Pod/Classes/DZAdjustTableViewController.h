@@ -8,6 +8,5 @@
 
 #import <UIKit/UIKit.h>
 #import "DZAdjustTableView.h"
-@interface DZAdjustTableViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
-@property (nonatomic, strong, readonly) DZAdjustTableView* tableView;
+@interface DZAdjustTableViewController : UITableViewController
 @end

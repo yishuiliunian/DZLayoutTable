@@ -8,6 +8,10 @@
 
 #import "DZTableDataSync.h"
 
+@interface DZTableDataSync ()
+@end
+
+
 @implementation DZTableDataSync
 
 - (instancetype) init
@@ -18,17 +22,20 @@
     }
     _currentPageIndex = 0;
     _isSyncing = NO;
+    _objects = [DZSectionDataController new];
     return self;
 }
-- (NSArray*) objects
+
+- (void) setTableViewController:(UITableViewController *)tableViewController
 {
-    return _layoutObjects;
+    if (tableViewController != _tableViewController) {
+        _tableViewController = tableViewController;
+        UIRefreshControl* control = [[UIRefreshControl alloc] init];
+        [control addTarget:self action:@selector(reloadData) forControlEvents:UIControlEventValueChanged];
+        _tableViewController.refreshControl = control;
+    }
 }
 
-- (DZLayout*) layoutAtIndex:(NSInteger)index
-{
-    return _layoutObjects[index];
-}
 - (void) reloadData
 {
     [self startSync];
@@ -41,6 +48,7 @@
 - (void) finishingSync
 {
     _isSyncing = NO;
+    [self.tableViewController.refreshControl endRefreshing];
 }
 
 - (void) startSync
@@ -55,56 +63,15 @@
 
 - (void) finishedReloadAllData:(NSArray*)datas
 {
-    _layoutObjects = [datas copy];
-    [self.tableView reloadData];
+    [self.objects  updateAllObjects:datas];
+    [self.tableViewController.tableView reloadData];
     [self finishingSync];
 }
 
 - (void) finishSyncNextDatas:(NSArray*)datas
 {
-    if (datas.count == 0) {
-        return;
-    }
-    NSMutableArray* array = [_layoutObjects mutableCopy];
-    NSInteger minIndex = _layoutObjects.count;
-    [array addObjectsFromArray:datas];
-    NSInteger maxIndex = (int)array.count ;
-    _layoutObjects = array;
-    
-    NSMutableArray* indexPaths = [NSMutableArray new];
-    for (int i = (int)minIndex;  i < maxIndex; i++) {
-        NSIndexPath* path = [NSIndexPath indexPathForRow:i inSection:0];
-        [indexPaths addObject:path];
-    }
-    if (indexPaths.count == datas.count ) {
-        [self.tableView insertRowsAtIndexPaths:indexPaths withRowAnimation:UITableViewRowAnimationAutomatic];
-    }
+    [self.tableViewController.tableView reloadData];
     [self finishingSync];
 }
 
-- (void) insertLayoutObject:(DZLayout *)anObject atIndex:(NSUInteger)index
-{
-    if (index >= _layoutObjects.count) {
-        return;
-    }
-    
-    NSMutableArray*  insertedArray = [_layoutObjects mutableCopy];
-    [insertedArray insertObject:anObject atIndex:index];
-    _layoutObjects = insertedArray;
-    [self.tableView insertRowsAtIndexPaths:@[[NSIndexPath indexPathForRow:index inSection:0]] withRowAnimation:UITableViewRowAnimationAutomatic];
-}
-
-- (void) removeLayoutObjectAtIndex:(NSUInteger)index
-{
-    if (index >= _layoutObjects.count) {
-        return;
-    }
-    
-    NSMutableArray * deletedArray = [_layoutObjects mutableCopy];
-    [deletedArray removeObjectAtIndex:index];
-    _layoutObjects = deletedArray;
-    
-    [self.tableView deleteRowsAtIndexPaths:@[[NSIndexPath indexPathForRow:index inSection:0]] withRowAnimation:UITableViewRowAnimationAutomatic];
-    
-}
 @end
