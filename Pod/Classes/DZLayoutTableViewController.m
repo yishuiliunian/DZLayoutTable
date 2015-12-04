@@ -22,6 +22,7 @@
 - (void) setDataSyncer:(DZTableDataSync *)dataSyncer
 {
     if (_dataSyncer != dataSyncer) {
+        _dataSyncer.tableViewController = nil;
         _dataSyncer = dataSyncer;
         _dataSyncer.tableViewController = (UITableViewController*)self;
     }
