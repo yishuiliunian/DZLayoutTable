@@ -23,6 +23,7 @@
     _currentPageIndex = 0;
     _isSyncing = NO;
     _objects = [DZSectionDataController new];
+    _usingPullDownRefresh = YES;
     return self;
 }
 
@@ -30,9 +31,14 @@
 {
     if (tableViewController != _tableViewController) {
         _tableViewController = tableViewController;
-        UIRefreshControl* control = [[UIRefreshControl alloc] init];
-        [control addTarget:self action:@selector(reloadData) forControlEvents:UIControlEventValueChanged];
-        _tableViewController.refreshControl = control;
+        if (_usingPullDownRefresh) {
+            UIRefreshControl* control = [[UIRefreshControl alloc] init];
+            [control addTarget:self action:@selector(reloadData) forControlEvents:UIControlEventValueChanged];
+            _tableViewController.refreshControl = control;
+        } else {
+            _tableViewController.refreshControl = nil;
+        }
+
     }
 }
 

@@ -14,6 +14,7 @@
 {
     DZSectionDataController* _layoutObjects;
     NSInteger _currentPageIndex;
+    BOOL _usingPullDownRefresh;
 }
 @property (nonatomic, weak) UITableViewController* tableViewController;
 @property (nonatomic, assign, readonly) BOOL isSyncing;
