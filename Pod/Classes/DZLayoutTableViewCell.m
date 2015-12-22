@@ -8,7 +8,18 @@
 
 #import "DZLayoutTableViewCell.h"
 #import "DZLayout.h"
+#import "AdjustFrame.h"
 @implementation DZLayoutTableViewCell
+
+- (instancetype) initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
+{
+    self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
+    if (!self) {
+        return self;
+    }
+    self.adjustHeight = 44;
+    return self;
+}
 
 - (void)awakeFromNib {
     // Initialization code

@@ -8,6 +8,7 @@
 
 #import "DZLayoutTableViewController.h"
 #import "DZLayoutTableViewCell.h"
+#import "AdjustFrame.h"
 @implementation DZLayoutTableViewController
 - (instancetype) initWithSyncer:(DZTableDataSync *)syncer
 {
@@ -57,7 +58,12 @@
 - (CGFloat) tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     DZLayout* layout = [_dataSyncer.objects objectAtIndexPath:indexPath];
-    return layout.cellHeight;
+    if (layout.growing) {
+        UITableViewCell* cell = [self.tableView cellForRowAtIndexPath:indexPath];
+        return cell.adjustHeight;
+    } else {
+        return layout.cellHeight;
+    }
 }
 
 - (void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath

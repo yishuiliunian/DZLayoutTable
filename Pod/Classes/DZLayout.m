@@ -16,6 +16,7 @@
         return self;
     }
     _cellHeight = 44;
+    _growing = NO;
     return self;
 
 }
