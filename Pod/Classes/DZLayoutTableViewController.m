@@ -58,12 +58,7 @@
 - (CGFloat) tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     DZLayout* layout = [_dataSyncer.objects objectAtIndexPath:indexPath];
-    if (layout.growing) {
-        UITableViewCell* cell = [self.tableView cellForRowAtIndexPath:indexPath];
-        return cell.adjustHeight;
-    } else {
-        return layout.cellHeight;
-    }
+    return layout.cellHeight;
 }
 
 - (void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath

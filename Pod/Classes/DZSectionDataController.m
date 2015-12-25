@@ -92,7 +92,7 @@ static void* kDZArrayTitle = &kDZArrayTitle;
 - (void) updateSection:(NSArray*)array index:(NSUInteger)index
 {
     NSAssert([self __sectionIndexVaild:index], @"数组越界%lu",(unsigned long)index);
-
+    
     NSAssert([array isKindOfClass:[NSArray class]], @"更新%lu section时使用了错误的类型%@", (unsigned long)index,array);
     NSAssert(array.count, @"不可更新空数组%lu",(unsigned long)index);
     _allData[index] = [NSMutableArray arrayWithArray:array];
@@ -106,9 +106,9 @@ static void* kDZArrayTitle = &kDZArrayTitle;
 {
     NSAssert(index <= _allData.count, @"非法的数组序号%lu",(unsigned long)index);
     NSAssert([array isKindOfClass:[NSArray class]], @"更新%lu section时使用了错误的类型%@", (unsigned long)index,array);
-        NSAssert(array.count, @"不可更新空数组%lu",(unsigned long)index);
+    NSAssert(array.count, @"不可更新空数组%lu",(unsigned long)index);
     [_allData insertObject:[NSMutableArray arrayWithArray:array] atIndex:index];
- 
+    
 }
 - (void) updateObject:(id)object indexPath:(NSIndexPath*)indexpath
 {
@@ -127,7 +127,7 @@ static void* kDZArrayTitle = &kDZArrayTitle;
 }
 - (void) insertObject:(id)object indexPath:(NSIndexPath*)indexpath
 {
-    NSAssert(indexpath.section > _allData.count, @"插入对象位置超出数组边界");
+    NSAssert(indexpath.section >= _allData.count, @"插入对象位置超出数组边界");
     NSAssert(object, @"不可更新nil对象到数组");
     if (indexpath.section == _allData.count) {
         [self insertSection:@[object] index:indexpath.section];
@@ -146,7 +146,7 @@ static void* kDZArrayTitle = &kDZArrayTitle;
 }
 - (NSString*) titleForSection:(NSUInteger)index
 {
-   NSAssert([self __sectionIndexVaild:index], @"数组越界%lu",(unsigned long)index);
+    NSAssert([self __sectionIndexVaild:index], @"数组越界%lu",(unsigned long)index);
     NSArray* array = _allData[index];
     return array.title;
 }
@@ -166,3 +166,4 @@ static void* kDZArrayTitle = &kDZArrayTitle;
 }
 
 @end
+

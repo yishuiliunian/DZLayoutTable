@@ -16,9 +16,8 @@
         return self;
     }
     _cellHeight = 44;
-    _growing = NO;
     return self;
-
+    
 }
 
 - (NSString*) cellIdentify
@@ -36,7 +35,7 @@
         _dataObject = dataObject;
         [self prepareLayout];
     }
-
+    
 }
 
 - (void) prepareLayout
@@ -51,7 +50,7 @@
 
 - (void) loadContentForCell:(DZLayoutTableViewCell *)cell
 {
-
+    
 }
 
 - (void) doActionInEnviroment:(DZLayoutTableViewController *)tableVC
