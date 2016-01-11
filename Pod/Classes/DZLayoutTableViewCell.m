@@ -28,9 +28,9 @@
 
 - (void) setLayout:(DZLayout *)layout
 {
+    [layout loadContentForCell:self];
     if (_layout != layout) {
         _layout = layout;
-        [_layout loadContentForCell:self];
         [self setNeedsLayout];
     }
 }
