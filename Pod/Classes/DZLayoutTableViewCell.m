@@ -10,7 +10,7 @@
 #import "DZLayout.h"
 #import "AdjustFrame.h"
 @implementation DZLayoutTableViewCell
-
+@synthesize nextEventHandler = _nextEventHandler;
 - (instancetype) initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];

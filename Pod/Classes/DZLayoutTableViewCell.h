@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DZEvent.h"
 @class DZLayout;
-@interface DZLayoutTableViewCell : UITableViewCell
+@interface DZLayoutTableViewCell : UITableViewCell <DZEventResponser>
 @property (nonatomic, strong) DZLayout* layout;
 @end

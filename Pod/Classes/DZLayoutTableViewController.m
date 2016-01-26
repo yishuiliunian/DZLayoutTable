@@ -10,6 +10,7 @@
 #import "DZLayoutTableViewCell.h"
 #import "AdjustFrame.h"
 @implementation DZLayoutTableViewController
+@synthesize nextEventHandler = _nextEventHandler;
 - (instancetype) initWithSyncer:(DZTableDataSync *)syncer
 {
     self = [super initWithNibName:nil bundle:nil];
@@ -52,6 +53,7 @@
         cell = [layout cell];
     }
     cell.layout = layout;
+    cell.nextEventHandler = self;
     return cell;
 }
 
@@ -65,6 +67,11 @@
 {
     DZLayout* layout = [_dataSyncer.objects objectAtIndexPath:indexPath];
     [layout doActionInEnviroment:self];
+}
+
+- (void) handleEvent:(DZEvent *)event from:(id)source
+{
+        [self.dataSyncer handleEvent:event from:source];
 }
 @end
 

@@ -9,7 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "DZTableDataSync.h"
 #import "DZAdjustTableViewController.h"
-@interface DZLayoutTableViewController : DZAdjustTableViewController
+#import "DZEvent.h"
+@interface DZLayoutTableViewController : DZAdjustTableViewController <DZEventResponser>
 @property (nonatomic, strong) DZTableDataSync* dataSyncer;
 - (instancetype) initWithSyncer:(DZTableDataSync*)syncer;
 @end

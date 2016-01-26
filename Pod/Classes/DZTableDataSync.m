@@ -80,4 +80,8 @@
     [self finishingSync];
 }
 
+- (void) handleEvent:(DZEvent *)event from:(id)source
+{
+    
+}
 @end

@@ -10,7 +10,8 @@
 #import <UIKit/UIKit.h>
 #import "DZLayout.h"
 #import "DZSectionDataController.h"
-@interface DZTableDataSync : NSObject
+#import "DZEvent.h"
+@interface DZTableDataSync : NSObject <DZEventResponser>
 {
     DZSectionDataController* _layoutObjects;
     NSInteger _currentPageIndex;

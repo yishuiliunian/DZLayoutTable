@@ -159,7 +159,6 @@ static void* kDZArrayTitle = &kDZArrayTitle;
         if (![array isKindOfClass:[NSArray class]]) {
             NSAssert(NO, @"传入的数组中，包含非法元素%@",array);
         }
-        NSAssert(array.count, @"不允许使用空数组进行初始化");
         NSMutableArray* inobjects = [NSMutableArray arrayWithArray:array];
         [_allData addObject:inobjects];
     }
