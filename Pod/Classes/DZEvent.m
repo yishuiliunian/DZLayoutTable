@@ -11,4 +11,19 @@ NSString* kDZEventDeleted = @"kDZEventDeleted";
 NSString* kDZEventAdd = @"kDZEventAdd";
 @implementation DZEvent
 
++ (instancetype) eventWithName:(NSString *)name
+{
+    DZEvent* event = [[DZEvent alloc] initWithName:name];
+    return event;
+}
+
+- (instancetype) initWithName:(NSString *)name
+{
+    self = [super init];
+    if (!self) {
+        return self;
+    }
+    _name = name;
+    return self;
+}
 @end

@@ -57,4 +57,9 @@
 {
     
 }
+
+- (void) handleEvent:(DZEvent *)event from:(DZLayoutTableViewCell *)cell inEnv:(UIViewController *)vc
+{
+    
+}
 @end

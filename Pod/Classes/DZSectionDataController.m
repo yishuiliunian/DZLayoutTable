@@ -164,5 +164,15 @@ static void* kDZArrayTitle = &kDZArrayTitle;
     }
 }
 
+- (void) each:(void(^)(DZLayout* layout))block
+{
+    for (NSArray* array  in _allData) {
+        for (DZLayout* layout in array) {
+            block(layout);
+        }
+    }
+}
+
+
 @end
 

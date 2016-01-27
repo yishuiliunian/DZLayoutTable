@@ -71,7 +71,7 @@
 
 - (void) handleEvent:(DZEvent *)event from:(id)source
 {
-        [self.dataSyncer handleEvent:event from:source];
+    [self.dataSyncer handleEvent:event from:source];
 }
 @end
 

@@ -70,6 +70,11 @@
 - (void) finishedReloadAllData:(NSArray*)datas
 {
     [self.objects  updateAllObjects:datas];
+    
+    [self.objects each:^(DZLayout *layout) {
+        layout.envController = self.tableViewController;
+    }];
+    
     [self.tableViewController.tableView reloadData];
     [self finishingSync];
 }
@@ -82,6 +87,10 @@
 
 - (void) handleEvent:(DZEvent *)event from:(id)source
 {
-    
+    if ([source isKindOfClass:[DZLayoutTableViewCell class]]) {
+        NSIndexPath* indexPath  = [self.tableViewController.tableView indexPathForCell:(UITableViewCell*)source];
+        DZLayout* layout = [self.objects objectAtIndexPath:indexPath];
+        [layout handleEvent:event from:source inEnv:self.tableViewController];
+    }
 }
 @end

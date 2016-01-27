@@ -20,6 +20,8 @@ extern NSString* kDZEventDeleted;
 extern NSString* kDZEventAdd;
 
 @interface DZEvent : NSObject
++ (instancetype) eventWithName:(NSString*)name;
+- (instancetype) initWithName:(NSString*)name;
 @property (nonatomic, strong) NSString* name;
 @property (nonatomic, strong) NSDictionary* values;
 @end

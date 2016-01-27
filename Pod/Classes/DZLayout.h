@@ -11,7 +11,7 @@
 #import "DZLayoutTableViewCell.h"
 @class DZLayoutTableViewController;
 @interface DZLayout : NSObject
-
+@property (nonatomic, weak) UITableViewController* envController;
 @property (nonatomic, assign) CGFloat cellWidth;
 @property (nonatomic, assign) CGFloat cellHeight;
 @property (nonatomic, strong) Class cellClass;
@@ -23,4 +23,5 @@
 - (void) layoutTableViewCell:(DZLayoutTableViewCell*)cell;
 - (void) loadContentForCell:(DZLayoutTableViewCell*)cell;
 - (void) doActionInEnviroment:(DZLayoutTableViewController*)tableVC;
+- (void) handleEvent:(DZEvent*)event from:(DZLayoutTableViewCell*)cell inEnv:(UIViewController*)vc;
 @end

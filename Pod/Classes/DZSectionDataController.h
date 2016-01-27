@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+@class DZLayout;
 @interface DZSectionDataController : NSObject
 @property (nonatomic, assign, readonly) NSUInteger sectionCount;
 - (NSUInteger) countOfObjectsAtSection:(NSUInteger)index;
@@ -25,5 +25,7 @@
 - (NSString*) titleForSection:(NSUInteger)index;
 
 - (void) updateAllObjects:(NSArray*)objects;
+
+- (void) each:(void(^)(DZLayout* layout))block;
 
 @end
