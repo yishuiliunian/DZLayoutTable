@@ -11,9 +11,6 @@
 
 static void* kDZArrayTitle = &kDZArrayTitle;
 
-@interface NSArray (DZTitle)
-@property (nonatomic, strong) NSString* title;
-@end
 
 
 @implementation NSArray (DZTitle)
@@ -160,6 +157,7 @@ static void* kDZArrayTitle = &kDZArrayTitle;
             NSAssert(NO, @"传入的数组中，包含非法元素%@",array);
         }
         NSMutableArray* inobjects = [NSMutableArray arrayWithArray:array];
+        inobjects.title = array.title;
         [_allData addObject:inobjects];
     }
 }

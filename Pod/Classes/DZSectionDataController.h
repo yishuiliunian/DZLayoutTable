@@ -7,6 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+
+
+@interface NSArray (DZTitle)
+@property (nonatomic, strong) NSString* title;
+@end
+
 @class DZLayout;
 @interface DZSectionDataController : NSObject
 @property (nonatomic, assign, readonly) NSUInteger sectionCount;
