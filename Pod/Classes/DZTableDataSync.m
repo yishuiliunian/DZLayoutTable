@@ -7,7 +7,7 @@
 //
 
 #import "DZTableDataSync.h"
-#import <MJRefresh.h>
+#import "MJRefresh.h"
 @interface DZTableDataSync ()
 @end
 
